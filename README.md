@@ -1,7 +1,6 @@
 ## About Mylo Kaye
 
-Developer & Designer
-Founder of The App Developer community and welcoming aspiring app developers for over 5 years.
+Developer & Designer and Founder of The App Developer community, welcoming aspiring app developers for over 5 years.
 
 ## About this site
 
