@@ -5,7 +5,7 @@ Founder of The App Developer community and welcoming aspiring app developers for
 
 ## About this site
 
-This website was created using Botsrap with the framework created by Mark Otto and Jacon Thorton.
+This website was created using Bootsrap with the framework created by Mark Otto and Jacon Thorton.
 
 To view my site, visit: mylokaye.tech
 
