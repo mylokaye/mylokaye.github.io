@@ -1,4 +1,12 @@
+## About Mylo Kaye
 
+Developer & Designer and Founder of The App Developer community, welcoming aspiring app developers for over 5 years.
+
+## About this site
+
+This website was created using Bootsrap with the framework created by Mark Otto and Jacon Thorton.
+
+To view my site, visit: mylokaye.tech
 
 ## Bugs and Issues
 
