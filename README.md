@@ -6,7 +6,12 @@ Developer & Designer and Founder of The App Developer community, welcoming aspir
 
 This website was created using Bootsrap with the framework created by Mark Otto and Jacon Thorton.
 
-To view my site, visit: mylokaye.tech
+To view my tech site, visit: www.mylokaye.tech
+To view my drone site visit: https://mylo-kaye-aerial.com
+To view my blog visit: https://mylokaye.com
+To view my bio visit: http://mylokaye.org
+
+
 
 ## Bugs and Issues
 
