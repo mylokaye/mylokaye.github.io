@@ -1,0 +1,11 @@
+# robots.txt for mylokaye.info
+# Allow all search engines to crawl the site
+
+User-agent: *
+Allow: /
+
+# Disallow crawling of old/archived content
+Disallow: /old/
+
+# Sitemap location
+Sitemap: https://mylokaye.info/sitemap.xml
