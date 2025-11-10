@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Dynamics 365 Form Debugger - Browser Extension by Mylo Kaye</title>
+    <meta name="description" content="Dynamics 365 Form Debugger is a lightweight browser extension for Dynamics 365 Marketing users and developers. Bypass cached data, inspect form behavior, and test form changes instantly in Chrome and Edge.">
+    <meta name="author" content="Mylo Kaye">
+    <meta name="keywords" content="Dynamics 365 Form Debugger, Dynamics 365 Marketing, Browser Extension, Form Testing, Cache Bypass, Chrome Extension, Edge Extension, CRM Tools, Mylo Kaye">
+    <link rel="canonical" href="https://mylokaye.info/form-debugger.html">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mylokaye.info/form-debugger.html">
+    <meta property="og:title" content="Dynamics 365 Form Debugger - Browser Extension by Mylo Kaye">
+    <meta property="og:description" content="Lightweight browser extension for Dynamics 365 Marketing users. Inspect form behavior, bypass cached data, and test forms instantly in Chrome and Edge.">
+    <meta property="og:image" content="https://mylokaye.info/assets/social-share.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Dynamics 365 Form Debugger - Test and debug Dynamics 365 forms efficiently">
+    <meta property="og:site_name" content="Mylo Kaye">
+    <meta property="og:locale" content="en_GB">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://mylokaye.info/form-debugger.html">
+    <meta name="twitter:title" content="Dynamics 365 Form Debugger - Browser Extension">
+    <meta name="twitter:description" content="Lightweight browser extension for Dynamics 365 Marketing users. Inspect form behavior, bypass cached data, and test forms instantly.">
+    <meta name="twitter:image" content="https://mylokaye.info/assets/social-share.jpg">
+    <meta name="twitter:image:alt" content="Dynamics 365 Form Debugger - Test and debug Dynamics 365 forms efficiently">
+    <meta name="twitter:creator" content="@mylokaye">
+    <meta name="twitter:site" content="@mylokaye">
+
+    <!-- Additional Meta Tags -->
+    <meta name="theme-color" content="#476e83">
+    <meta name="robots" content="index, follow">
+    <meta name="classification" content="Technology, Software Development, Browser Extension, Developer Tools">
+    <meta name="coverage" content="Worldwide">
+    <meta name="target" content="Dynamics 365 Developers, Marketing Professionals, CRM Specialists">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="apple-touch-icon" href="assets/favicon.png">
+
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Dynamics 365 Form Debugger",
+            "url": "https://mylokaye.info/form-debugger.html",
+            "author": {
+                "@type": "Person",
+                "name": "Mylo Kaye",
+                "url": "https://mylokaye.info"
+            },
+            "description": "Dynamics 365 Form Debugger is a lightweight browser extension for Dynamics 365 Marketing users and developers. Bypass cached data, inspect form behavior, and test form changes instantly.",
+            "inLanguage": "en-GB",
+            "datePublished": "2025-01-15",
+            "dateModified": "2025-11-10",
+            "breadcrumb": {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://mylokaye.info/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Dynamics 365 Form Debugger",
+                        "item": "https://mylokaye.info/form-debugger.html"
+                    }
+                ]
+            }
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "Dynamics 365 Form Debugger",
+            "applicationCategory": "BrowserExtension",
+            "operatingSystem": ["Windows", "macOS", "Linux", "ChromeOS"],
+            "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Mylo Kaye",
+                "url": "https://mylokaye.info"
+            },
+            "description": "Dynamics 365 Form Debugger is a lightweight browser extension designed for Dynamics 365 Marketing users, developers, and CRM specialists. It helps you inspect form behavior, bypass cached data, and view form details with a simple popup interface.",
+            "softwareVersion": "1.0.0",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "5",
+                "ratingCount": "1"
+            },
+            "screenshot": "https://mylokaye.info/assets/img/form-debugger-screenshot.png",
+            "downloadUrl": [
+                "https://chromewebstore.google.com/detail/dynamics-365-form-debugge/kdhnliicfgopcijgepghgohnhafphohf",
+                "https://microsoftedge.microsoft.com/addons/detail/dynamics-365-form-debugge/ceoaoafhphcpdokfdfkiilmndbepbbec"
+            ],
+            "browserRequirements": "Chrome 88+, Edge 88+",
+            "permissions": "storage, activeTab, all_urls",
+            "softwareHelp": {
+                "@type": "CreativeWork",
+                "url": "https://github.com/mylokaye/Dynamics-365-CIJ-Form-Debugger"
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap">
+    <link rel="stylesheet" href="assets/css/bss-overrides.css">
+    <link rel="stylesheet" href="assets/css/template.css">
+</head>
+
+<body class="bg-gradient-body">
+    <nav class="navbar navbar-expand-lg py-3" data-bs-theme="dark">
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="/" aria-label="Mylo Kaye Home"><img class="img-fluid" style="height: 38px;" src="assets/img/logos/logo.png" alt="Mylo Kaye Logo"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-3" aria-label="Toggle navigation"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-3">
+                <ul class="navbar-nav mb-4 mb-lg-0 mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="/form-debugger.html">Form Debugger</a></li>
+                </ul>
+            </div><a class="btn btn-success border-0" role="button" href="https://www.linkedin.com/in/mylo-kaye/" target="_blank" rel="noopener noreferrer" aria-label="Contact Mylo Kaye on LinkedIn">Get in touch</a>
+        </div>
+    </nav>
+    <main>
+    <header class="pt-5">
+        <div class="container">
+            <div class="row pt-3">
+                <div class="col col-md-10 col-lg-8 col-xl-7 text-center text-md-start mx-auto">
+                    <div class="text-center">
+                        <h1 class="display-2 fw-bold mb-3 heading">Dynamics 365<br><span style="color: rgb(71, 110, 131);">Form Debugger</span></h1>
+                        <p class="lead fs-2 fw-lighter lh-sm mb-4">Lightweight browser extension for Dynamics 365 Marketing users and developers. Inspect form behavior, bypass cached data, and test forms instantly.</p>
+                        <div class="d-flex flex-column flex-grow-0 align-items-center mb-4 mb-xl-5 gap-3">
+                            <small class="text-uppercase my-2">Available for Chrome & Edge</small>
+                            <div class="d-flex flex-column flex-md-row gap-3">
+                                <a class="btn btn-success border-0" role="button" href="https://chromewebstore.google.com/detail/dynamics-365-form-debugge/kdhnliicfgopcijgepghgohnhafphohf?authuser=0&hl=en-GB" target="_blank" rel="noopener noreferrer">Install for Chrome</a>
+                                <a class="btn btn-success border-0" role="button" href="https://microsoftedge.microsoft.com/addons/detail/dynamics-365-form-debugge/ceoaoafhphcpdokfdfkiilmndbepbbec" target="_blank" rel="noopener noreferrer">Install for Edge</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="py-5" aria-label="Browser Compatibility">
+        <div class="container text-center"><small class="text-uppercase fw-bold d-block mb-2 mb-lg-4">Compatible with leading browsers</small>
+            <div class="d-flex justify-content-center align-items-center flex-wrap gap-4 p-3 px-xl-7">
+                <div class="d-flex flex-column align-items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <circle cx="12" cy="12" r="6"></circle>
+                        <circle cx="12" cy="12" r="2"></circle>
+                    </svg>
+                    <span class="fw-bold">Google Chrome</span>
+                </div>
+                <div class="d-flex flex-column align-items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2"/>
+                    </svg>
+                    <span class="fw-bold">Microsoft Edge</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section aria-labelledby="overview-heading">
+        <div class="container py-4">
+            <div class="row mb-4">
+                <div class="col-md-8 col-xl-6 text-center mx-auto">
+                    <h2 id="overview-heading" class="text-uppercase fw-bold heading">Overview</h2>
+                    <p class="text-muted">Test, debug, and validate Dynamics 365 forms directly in your browser</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-xl-10 mx-auto">
+                    <div class="card bg-white bg-opacity-10 bg-gradient mb-4">
+                        <div class="card-body p-4 p-lg-5">
+                            <p class="fs-5 mb-0">Dynamics 365 Form Debugger is a lightweight browser extension designed for Dynamics 365 Marketing users, developers, and CRM specialists. It helps you inspect form behavior, bypass cached data, and view form details with a simple popup interface.</p>
+                            <p class="fs-5 mt-3 mb-0"><strong>Everything runs locally — no data is collected, transmitted, or shared.</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section aria-labelledby="features-heading">
+        <div class="container py-5">
+            <div class="row mb-4">
+                <div class="col-md-8 col-xl-6 text-center mx-auto">
+                    <h2 id="features-heading" class="text-uppercase fw-bold heading">Key Features</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-xl-10 mx-auto">
+                    <div class="row gy-4 row-cols-1 row-cols-md-2">
+                        <div class="col">
+                            <article class="card bg-white bg-opacity-10 bg-gradient h-100">
+                                <div class="card-body p-4">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <span class="fs-3 me-3">✅</span>
+                                        <h3 class="fw-bold h5 mb-0">Instant Form Detection</h3>
+                                    </div>
+                                    <p class="text-muted mb-0">Automatically detects Dynamics 365 forms on the page via <code>[data-form-id]</code> attribute</p>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col">
+                            <article class="card bg-white bg-opacity-10 bg-gradient h-100">
+                                <div class="card-body p-4">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <span class="fs-3 me-3">📋</span>
+                                        <h3 class="fw-bold h5 mb-0">View Form Details</h3>
+                                    </div>
+                                    <p class="text-muted mb-0">See Form ID and field count (including hidden fields) with real-time updates</p>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col">
+                            <article class="card bg-white bg-opacity-10 bg-gradient h-100">
+                                <div class="card-body p-4">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <span class="fs-3 me-3">🔄</span>
+                                        <h3 class="fw-bold h5 mb-0">Automatic Cache Bypass</h3>
+                                    </div>
+                                    <p class="text-muted mb-0">Uses <code>#d365mkt-nocache</code> to bypass cached data and test form changes instantly</p>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col">
+                            <article class="card bg-white bg-opacity-10 bg-gradient h-100">
+                                <div class="card-body p-4">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <span class="fs-3 me-3">⚙️</span>
+                                        <h3 class="fw-bold h5 mb-0">Toggle On/Off</h3>
+                                    </div>
+                                    <p class="text-muted mb-0">Enable or disable the extension from the browser toolbar with visual feedback</p>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col">
+                            <article class="card bg-white bg-opacity-10 bg-gradient h-100">
+                                <div class="card-body p-4">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <span class="fs-3 me-3">📋</span>
+                                        <h3 class="fw-bold h5 mb-0">Click to Copy</h3>
+                                    </div>
+                                    <p class="text-muted mb-0">Click any form detail to copy it to clipboard for easy sharing and documentation</p>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col">
+                            <article class="card bg-white bg-opacity-10 bg-gradient h-100">
+                                <div class="card-body p-4">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <span class="fs-3 me-3">⚡</span>
+                                        <h3 class="fw-bold h5 mb-0">Smart Auto-Disable</h3>
+                                    </div>
+                                    <p class="text-muted mb-0">Extension automatically turns off when no form is detected for better performance</p>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col">
+                            <article class="card bg-white bg-opacity-10 bg-gradient h-100">
+                                <div class="card-body p-4">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <span class="fs-3 me-3">🎨</span>
+                                        <h3 class="fw-bold h5 mb-0">Visual Feedback</h3>
+                                    </div>
+                                    <p class="text-muted mb-0">Info fields turn grey when extension is inactive, clear status indicators throughout</p>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col">
+                            <article class="card bg-white bg-opacity-10 bg-gradient h-100">
+                                <div class="card-body p-4">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <span class="fs-3 me-3">🔒</span>
+                                        <h3 class="fw-bold h5 mb-0">100% Client-Side</h3>
+                                    </div>
+                                    <p class="text-muted mb-0">No tracking, telemetry, or network calls. All operations happen locally in your browser</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section aria-labelledby="howto-heading">
+        <div class="container py-5">
+            <div class="row mb-4">
+                <div class="col-md-8 col-xl-6 text-center mx-auto">
+                    <h2 id="howto-heading" class="text-uppercase fw-bold heading">How to Use</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-xl-8 mx-auto">
+                    <ol class="fs-5 lh-lg">
+                        <li class="mb-3">Install the extension from <a href="https://chromewebstore.google.com/detail/dynamics-365-form-debugge/kdhnliicfgopcijgepghgohnhafphohf?authuser=0&hl=en-GB" target="_blank" rel="noopener noreferrer">Chrome Web Store</a> or <a href="https://microsoftedge.microsoft.com/addons/detail/dynamics-365-form-debugge/ceoaoafhphcpdokfdfkiilmndbepbbec" target="_blank" rel="noopener noreferrer">Microsoft Edge Add-ons</a></li>
+                        <li class="mb-3">Open a Dynamics 365 form page, such as: <code>https://assets-*.mkt.dynamics.com/...</code></li>
+                        <li class="mb-3">Click the <strong>Dynamics 365 Form Debugger</strong> icon in your browser toolbar</li>
+                        <li class="mb-3">Toggle <strong>"Activate extension"</strong> to enable cache bypass</li>
+                        <li class="mb-3">View form details: Form ID, field count, detection status, and cache status</li>
+                        <li class="mb-0">Click any value to copy it to your clipboard</li>
+                    </ol>
+                    <p class="fs-5 mt-4 fst-italic text-muted">All operations happen locally inside your browser session.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section aria-labelledby="privacy-heading">
+        <div class="container py-5">
+            <div class="row mb-4">
+                <div class="col-md-8 col-xl-6 text-center mx-auto">
+                    <h2 id="privacy-heading" class="text-uppercase fw-bold heading">Privacy & Data</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-xl-10 mx-auto">
+                    <div class="card bg-white bg-opacity-10 bg-gradient">
+                        <div class="card-body p-4 p-lg-5">
+                            <p class="fs-5 mb-4">This extension <strong>does not collect, transmit, or store any user or form data</strong>. All functionality (cache toggle, form detection, and form checks) is performed entirely on your device.</p>
+                            <h3 class="h5 fw-bold mb-3">Permissions Used:</h3>
+                            <ul class="fs-5 lh-lg">
+                                <li class="mb-2"><code>storage</code> - To save your extension on/off preference locally</li>
+                                <li class="mb-2"><code>activeTab</code> - To read form information from the current active tab</li>
+                                <li class="mb-0"><code>&lt;all_urls&gt;</code> - Required because Dynamics 365 forms can be embedded on any website, not just Microsoft domains. The extension only activates when it detects a Dynamics 365 form on the page.</li>
+                            </ul>
+                            <div class="mt-4 pt-3 border-top border-white border-opacity-25">
+                                <p class="mb-0"><a href="/privacy.html" class="link-light">Read full privacy policy →</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section aria-labelledby="technical-heading">
+        <div class="container py-5">
+            <div class="row mb-4">
+                <div class="col-md-8 col-xl-6 text-center mx-auto">
+                    <h2 id="technical-heading" class="text-uppercase fw-bold heading">Technical Details</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-xl-10 mx-auto">
+                    <div class="row gy-3">
+                        <div class="col-md-6">
+                            <div class="card bg-white bg-opacity-10 bg-gradient h-100">
+                                <div class="card-body p-4">
+                                    <h3 class="h6 fw-bold mb-2">Manifest Version</h3>
+                                    <p class="text-muted mb-0">Manifest V3 compliant</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card bg-white bg-opacity-10 bg-gradient h-100">
+                                <div class="card-body p-4">
+                                    <h3 class="h6 fw-bold mb-2">Compatibility</h3>
+                                    <p class="text-muted mb-0">Works on any URL where Dynamics 365 forms are embedded</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card bg-white bg-opacity-10 bg-gradient h-100">
+                                <div class="card-body p-4">
+                                    <h3 class="h6 fw-bold mb-2">CSP Compliant</h3>
+                                    <p class="text-muted mb-0">No eval, no inline scripts - follows security best practices</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card bg-white bg-opacity-10 bg-gradient h-100">
+                                <div class="card-body p-4">
+                                    <h3 class="h6 fw-bold mb-2">Real-Time Updates</h3>
+                                    <p class="text-muted mb-0">MutationObserver tracks dynamically loaded form fields</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card bg-white bg-opacity-10 bg-gradient h-100">
+                                <div class="card-body p-4">
+                                    <h3 class="h6 fw-bold mb-2">Early Detection</h3>
+                                    <p class="text-muted mb-0">Content script runs at <code>document_start</code></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card bg-white bg-opacity-10 bg-gradient h-100">
+                                <div class="card-body p-4">
+                                    <h3 class="h6 fw-bold mb-2">Performance Monitoring</h3>
+                                    <p class="text-muted mb-0">Performance API monitoring to detect form API calls</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section aria-labelledby="support-heading">
+        <div class="container py-5">
+            <div class="row mb-4">
+                <div class="col-md-8 col-xl-6 text-center mx-auto">
+                    <h2 id="support-heading" class="text-uppercase fw-bold heading">Support & Resources</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-xl-8 mx-auto">
+                    <div class="d-flex flex-column gap-3 text-center">
+                        <div class="card bg-white bg-opacity-10 bg-gradient">
+                            <div class="card-body p-4">
+                                <h3 class="h5 fw-bold mb-2">GitHub Repository</h3>
+                                <p class="text-muted mb-3">View source code, report issues, and contribute</p>
+                                <a class="btn btn-success border-0" href="https://github.com/mylokaye/Dynamics-365-CIJ-Form-Debugger" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                            </div>
+                        </div>
+                        <div class="card bg-white bg-opacity-10 bg-gradient">
+                            <div class="card-body p-4">
+                                <h3 class="h5 fw-bold mb-2">Download Extension</h3>
+                                <p class="text-muted mb-3">Install from your preferred browser store</p>
+                                <div class="d-flex flex-column flex-md-row gap-2 justify-content-center">
+                                    <a class="btn btn-success border-0" href="https://chromewebstore.google.com/detail/dynamics-365-form-debugge/kdhnliicfgopcijgepghgohnhafphohf?authuser=0&hl=en-GB" target="_blank" rel="noopener noreferrer">Chrome Web Store</a>
+                                    <a class="btn btn-success border-0" href="https://microsoftedge.microsoft.com/addons/detail/dynamics-365-form-debugge/ceoaoafhphcpdokfdfkiilmndbepbbec" target="_blank" rel="noopener noreferrer">Edge Add-ons</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <p class="text-muted mb-2"><strong>Author:</strong> Mylo Kaye</p>
+                            <p class="text-muted mb-2"><strong>License:</strong> Apache 2.0</p>
+                            <p class="text-muted mb-0"><strong>Version:</strong> 1.0.0</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section aria-labelledby="legal-heading">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col col-xl-8 mx-auto text-center">
+                    <h2 id="legal-heading" class="h5 fw-bold mb-3">Legal Notice</h2>
+                    <p class="text-muted small">Dynamics 365 and Microsoft Edge are registered trademarks of Microsoft Corporation. This extension, Dynamics 365 Form Debugger, is an independent tool created by Mylo Kaye and is not affiliated with, endorsed by, or sponsored by Microsoft Corporation in any way. All references to Microsoft products are used for informational and compatibility purposes only.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+    <footer class="bg-body-secondary bg-opacity-25 bg-gradient mt-5 py-5" role="contentinfo">
+        <div class="container d-flex flex-column justify-content-between align-items-center flex-lg-row">
+            <div class="text-center text-lg-start mb-5 mb-lg-0"><a class="fs-4 fw-bold link-light" href="/"><img class="img-fluid me-2" style="height: 38px;" src="assets/img/logos/logo.png" alt="Mylo Kaye Logo"></a>
+                <p class="mt-1 mb-4">Building human centered experiences across Microsoft Dynamics 365: <br>Customer Insights Journeys.</p><a class="btn btn-success border-0" role="button" href="https://www.linkedin.com/in/mylo-kaye/">Get in touch</a>
+            </div>
+            <div class="text-center text-lg-end">
+                <div class="mb-lg-2"><a class="link-light" href="https://www.linkedin.com/in/mylo-kaye/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512" width="1em" height="1em" fill="currentColor" class="fs-5 me-2">
+                            <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. -->
+                            <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path>
+                        </svg></a></div>
+                <p class="text-muted mb-2">Copyright&nbsp; 2025© Mylo Kaye</p><a class="link-light text-white" href="/privacy.html" rel="noopener noreferrer">Privacy</a>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
