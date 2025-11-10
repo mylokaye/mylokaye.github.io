@@ -107,12 +107,12 @@
                 <p class="mt-1 mb-4">Building human centered experiences across Microsoft Dynamics 365: <br>Customer Insights Journeys.</p><a class="btn btn-success border-0" role="button" href="https://www.linkedin.com/in/mylo-kaye/">Get in touch</a>
             </div>
             <div class="text-center text-lg-end">
-                <div class="mb-lg-2"><a class="link-light" href="https://www.linkedin.com/in/mylo-kaye/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512" width="1em" height="1em" fill="currentColor" class="fs-5 me-2">
+                <div class="mb-lg-2"><a class="link-light me-2" href="#"></a><a class="link-light" href="https://www.linkedin.com/in/mylo-kaye/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512" width="1em" height="1em" fill="currentColor" class="fs-5 me-2">
                             <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. -->
                             <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path>
-                        </svg></a></div>
+                        </svg></a><a class="link-light" href="#"></a></div>
                 <ul class="nav d-flex justify-content-center mb-1"></ul>
-                <p class="text-muted mb-2">Copyright&nbsp; 2025© Mylo Kaye</p><a href="/privacy.html">Privacy</a>
+                <p class="text-muted mb-2">Copyright&nbsp; 2025© Mylo Kaye</p><a href="/privacy.html" target="_blank" rel="noopener noreferrer">Privacy</a>
             </div>
         </div>
     </footer>
