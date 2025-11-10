@@ -36,20 +36,24 @@ nav, header, section, footer, .container {
 
 /* Glassmorphism button styles */
 .btn {
-  background: rgba(255, 255, 255, 0.2) !important;
-  border-radius: 16px !important;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
-  backdrop-filter: blur(5px) !important;
-  -webkit-backdrop-filter: blur(5px) !important;
-  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  background: rgba(255, 255, 255, 0.15) !important;
+  border-radius: 12px !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
   color: white !important;
+  font-weight: 500 !important;
+  transition: all 0.3s ease !important;
 }
 
 .btn:hover {
-  background: rgba(255, 255, 255, 0.3) !important;
+  background: rgba(255, 255, 255, 0.25) !important;
   color: white !important;
-  transform: translateY(-2px);
-  transition: all 0.3s ease;
+  transform: translateY(-2px) !important;
+}
+
+.btn:active {
+  transform: translateY(0) !important;
 }
 
 /* Glassmorphism card styles for project boxes */
