@@ -5,7 +5,7 @@ A coder in his spare time, creating repos to help others.
 
 This website was created using Bootsrap with the framework created by Mark Otto and Jacon Thorton.
 
-To view my blog visit: https://mylokaye.com
+To view my blog visit: https://mylokaye.info
 
 
 
