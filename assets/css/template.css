@@ -4,32 +4,66 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
+  background: radial-gradient(circle at center, #c5d8e3 0%, #4a8fb8 100%) !important;
+  min-height: 100vh;
 }
 
-.bg-gradient-body {
-  background: radial-gradient(circle at center, #c5d8e3 0%, #4a8fb8 100%);
-  position: relative;
-}
-
-/* Add noise texture */
+/* Override Bootstrap's bg-gradient-body before element */
 .bg-gradient-body::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' /%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.15'/%3E%3C/svg%3E");
+  content: '' !important;
+  position: fixed !important;
+  inset: 0 !important;
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 1000 1000' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='5' /%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.2'/%3E%3C/svg%3E") !important;
+  background-size: 100% 100%;
+  -webkit-mask-image: none !important;
+  mask-image: none !important;
+  height: 100vh !important;
+  max-height: 100vh !important;
   pointer-events: none;
-  z-index: -1;
+  z-index: 0;
+  opacity: 1 !important;
 }
 
-/* Center asterisk */
+/* Remove the asterisk */
 .bg-gradient-body::after {
-  content: '✱';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 20px;
-  opacity: 0.9;
-  z-index: -1;
+  display: none !important;
+}
+
+nav, header, section, footer, .container {
+  position: relative;
+  z-index: 1;
+}
+
+/* Glassmorphism button styles */
+.btn {
+  background: rgba(255, 255, 255, 0.2) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+  backdrop-filter: blur(5px) !important;
+  -webkit-backdrop-filter: blur(5px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  color: white !important;
+}
+
+.btn:hover {
+  background: rgba(255, 255, 255, 0.3) !important;
+  color: white !important;
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
+
+/* Glassmorphism card styles for project boxes */
+.card {
+  background: rgba(255, 255, 255, 0.2) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+  backdrop-filter: blur(5px) !important;
+  -webkit-backdrop-filter: blur(5px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+.card:hover {
+  background: rgba(255, 255, 255, 0.25) !important;
+  transform: translateY(-4px);
+  transition: all 0.3s ease;
 }
