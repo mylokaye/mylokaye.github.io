@@ -7,13 +7,29 @@ body {
 }
 
 .bg-gradient-body {
-  background-image: url('../bg.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background: radial-gradient(circle at center, #c5d8e3 0%, #4a8fb8 100%);
+  position: relative;
 }
 
-.bg-gradient-body:before {
-  display: none;
+/* Add noise texture */
+.bg-gradient-body::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' /%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.15'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Center asterisk */
+.bg-gradient-body::after {
+  content: '✱';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  opacity: 0.9;
+  z-index: -1;
 }
