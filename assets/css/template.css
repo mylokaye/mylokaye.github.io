@@ -1,4 +1,19 @@
 :root {
-  --bs-font-family-heading: 'Outfit', sans-serif;
+  --bs-font-family-heading: 'Open Sans', sans-serif;
 }
 
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.bg-gradient-body {
+  background-image: url('../bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.bg-gradient-body:before {
+  display: none;
+}
