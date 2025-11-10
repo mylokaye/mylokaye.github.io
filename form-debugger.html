@@ -93,6 +93,15 @@
                 "price": "0",
                 "priceCurrency": "USD"
             },
+            "creator": {
+                "@type": "Person",
+                "name": "Mylo Kaye",
+                "url": "https://mylokaye.info",
+                "sameAs": [
+                    "https://www.linkedin.com/in/mylo-kaye/",
+                    "https://github.com/mylokaye"
+                ]
+            },
             "author": {
                 "@type": "Person",
                 "name": "Mylo Kaye",
@@ -100,6 +109,18 @@
             },
             "description": "Dynamics 365 Form Debugger is a lightweight browser extension designed for Dynamics 365 Marketing users, developers, and CRM specialists. It helps you inspect form behavior, bypass cached data, and view form details with a simple popup interface.",
             "softwareVersion": "1.0.0",
+            "featureList": [
+                "Instant form detection via [data-form-id] attribute",
+                "View Form ID and field count including hidden fields",
+                "Automatic cache bypass using #d365mkt-nocache",
+                "Toggle extension on/off from browser toolbar",
+                "Click to copy form details to clipboard",
+                "Smart auto-disable when no form detected",
+                "Visual feedback with status indicators",
+                "100% client-side operation with no data collection",
+                "Real-time field count updates via MutationObserver",
+                "Performance API monitoring for form API calls"
+            ],
             "aggregateRating": {
                 "@type": "AggregateRating",
                 "ratingValue": "5",
@@ -110,12 +131,67 @@
                 "https://chromewebstore.google.com/detail/dynamics-365-form-debugge/kdhnliicfgopcijgepghgohnhafphohf",
                 "https://microsoftedge.microsoft.com/addons/detail/dynamics-365-form-debugge/ceoaoafhphcpdokfdfkiilmndbepbbec"
             ],
+            "installUrl": [
+                "https://chromewebstore.google.com/detail/dynamics-365-form-debugge/kdhnliicfgopcijgepghgohnhafphohf",
+                "https://microsoftedge.microsoft.com/addons/detail/dynamics-365-form-debugge/ceoaoafhphcpdokfdfkiilmndbepbbec"
+            ],
             "browserRequirements": "Chrome 88+, Edge 88+",
             "permissions": "storage, activeTab, all_urls",
             "softwareHelp": {
                 "@type": "CreativeWork",
                 "url": "https://github.com/mylokaye/Dynamics-365-CIJ-Form-Debugger"
-            }
+            },
+            "codeRepository": "https://github.com/mylokaye/Dynamics-365-CIJ-Form-Debugger",
+            "license": "https://www.apache.org/licenses/LICENSE-2.0",
+            "keywords": "Dynamics 365, Form Debugger, Marketing, Browser Extension, Chrome, Edge, Cache Bypass, Developer Tools, CRM, Testing"
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "What is Dynamics 365 Form Debugger?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Dynamics 365 Form Debugger is a lightweight browser extension designed for Dynamics 365 Marketing users, developers, and CRM specialists. It helps you inspect form behavior, bypass cached data, and view form details with a simple popup interface. Everything runs locally with no data collection."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which browsers support Dynamics 365 Form Debugger?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "The extension is compatible with Google Chrome and Microsoft Edge browsers. You can install it from the Chrome Web Store or Microsoft Edge Add-ons store."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Does the extension collect any data?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "No. The extension does not collect, transmit, or store any user or form data. All functionality (cache toggle, form detection, and form checks) is performed entirely on your device. There is no tracking, telemetry, or network calls."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How do I use the cache bypass feature?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Click the Dynamics 365 Form Debugger icon in your browser toolbar and toggle 'Activate extension' to enable cache bypass. The extension automatically appends #d365mkt-nocache to the URL, allowing you to test form changes instantly without cached data."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Is Dynamics 365 Form Debugger free?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, Dynamics 365 Form Debugger is completely free to use. It's an open-source project available under the Apache 2.0 license."
+                    }
+                }
+            ]
         }
     </script>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -158,20 +234,8 @@
     <section class="py-5" aria-label="Browser Compatibility">
         <div class="container text-center"><small class="text-uppercase fw-bold d-block mb-2 mb-lg-4">Compatible with leading browsers</small>
             <div class="d-flex justify-content-center align-items-center flex-wrap gap-4 p-3 px-xl-7">
-                <div class="d-flex flex-column align-items-center gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <circle cx="12" cy="12" r="6"></circle>
-                        <circle cx="12" cy="12" r="2"></circle>
-                    </svg>
-                    <span class="fw-bold">Google Chrome</span>
-                </div>
-                <div class="d-flex flex-column align-items-center gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2"/>
-                    </svg>
-                    <span class="fw-bold">Microsoft Edge</span>
-                </div>
+                <img style="width: 110px; height: auto;" src="assets/img/brands/chrome.png" alt="Google Chrome browser" loading="lazy">
+                <img style="width: 110px; height: auto;" src="assets/img/brands/edge.png" alt="Microsoft Edge browser" loading="lazy">
             </div>
         </div>
     </section>
