@@ -1,33 +1,41 @@
+# Mylo Kaye - GitHub Showcase
+
+Personal portfolio website showcasing GitHub projects built for Dynamics 365 and Microsoft platforms.
+
 ## About Mylo Kaye
 
-A coder in his spare time, creating repos to help others.
-## About this site
+Based in Manchester, UK, Mylo designs customer journeys that transform complex global B2B relationships into measurable growth using Dynamics 365 and the Power Platform.
 
-This website was created using Bootsrap with the framework created by Mark Otto and Jacon Thorton.
+## About This Site
 
-To view my blog visit: https://mylokaye.info
+This website showcases open-source projects for Dynamics 365 Customer Insights, including:
 
+- Marketing Asset Review
+- Dynamics 365 Form Debugger
+- Form Translator
+- Customer Insights Forms
+- Preference Center
+- 1-Click Feedback System
+- Form Email Validator
 
+## Technology
 
-## Bugs and Issues
+This website is built with:
+- Bootstrap 5.3.6 framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thornton](https://twitter.com/fat)
+- Custom CSS and design
+- Semantic HTML5
+- Optimized for performance and accessibility
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-freelancer/issues) here on GitHub or leave a comment on the [theme overview page at Start Bootstrap](https://startbootstrap.com/theme/freelancer/).
+## Visit
 
-## About
+Live site: [https://mylokaye.info](https://mylokaye.info)
 
-Start Bootstrap is an open source library of free Bootstrap themes and templates. All of the free themes and templates on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+## Contact
 
-- <https://startbootstrap.com>
-- <https://twitter.com/SBootstrap>
+- LinkedIn: [linkedin.com/in/mylo-kaye](https://www.linkedin.com/in/mylo-kaye/)
+- GitHub: [@mylokaye](https://github.com/mylokaye)
+- Email: mylo@mylokaye.com
 
-Start Bootstrap was created by and is maintained by **[David Miller](https://davidmiller.io/)**.
+## License
 
-- <https://davidmiller.io>
-- <https://twitter.com/davidmillerhere>
-- <https://github.com/davidtmiller>
-
-Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2022 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-freelancer/blob/master/LICENSE) license.
+Copyright © 2025 Mylo Kaye. All rights reserved.
