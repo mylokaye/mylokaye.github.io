@@ -1,41 +1,66 @@
-# Mylo Kaye - GitHub Showcase
+# Mylo Kaye - GitHub Projects
 
-Personal portfolio website showcasing GitHub projects built for Dynamics 365 and Microsoft platforms.
+A personal project showcase for practical Dynamics 365 Customer Insights tools, browser utilities, and documentation by Mylo Kaye.
 
-## About Mylo Kaye
+Live site: [mylokaye.info](https://mylokaye.info)
 
-Based in Manchester, UK, Mylo designs customer journeys that transform complex global B2B relationships into measurable growth using Dynamics 365 and the Power Platform.
+## About
 
-## About This Site
+Mylo Kaye is based in Manchester, U.K. and works on customer experience tooling for Dynamics 365 CRM across global markets.
 
-This website showcases open-source projects for Dynamics 365 Customer Insights, including:
+The site highlights small, focused projects that make Dynamics 365 and campaign work easier to test, document, and repeat.
 
-- Marketing Asset Review
-- Dynamics 365 Form Debugger
-- Form Translator
-- Customer Insights Forms
-- Preference Center
-- 1-Click Feedback System
-- Form Email Validator
+## Featured Projects
 
-## Technology
+- [D365-CIJ-Forms-Debugger](https://github.com/mylokaye/D365-CIJ-Forms-Debugger)  
+  Temporarily disables Dynamics 365 Customer Insights Forms cache so form changes can be tested quickly in Microsoft Edge or Chrome.
 
-This website is built with:
-- Bootstrap 5.3.6 framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thornton](https://twitter.com/fat)
-- Custom CSS and design
-- Semantic HTML5
-- Optimized for performance and accessibility
+- [D365-CIJ-Forms-Docs](https://github.com/mylokaye/D365-CIJ-Forms-Docs)  
+  Documentation for creating, customizing, and managing Dynamics 365 Customer Insights - Journeys forms.
 
-## Visit
+- [Pattens-basic](https://github.com/mylokaye/Pattens-basic)  
+  Browser-based email tools for working with email lists, email HTML, campaign names, and campaign assets.
 
-Live site: [https://mylokaye.info](https://mylokaye.info)
+- [forms-v2](https://github.com/mylokaye/forms-v2)  
+  A compact UI and UX testing ground for basic HTML forms.
+
+## Browser Extension
+
+The Form Debugger project is available for:
+
+- [Chrome Web Store](https://chromewebstore.google.com/detail/dynamics-365-form-debugge/kdhnliicfgopcijgepghgohnhafphohf)
+- [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/dynamics-365-form-debugge/ceoaoafhphcpdokfdfkiilmndbepbbec?hl=en-GB)
+
+## Site Design
+
+The homepage is a static HTML site using:
+
+- Tailwind CSS via CDN
+- Plus Jakarta Sans and JetBrains Mono
+- Lucide icons
+- Glass-style sticky navigation
+- Responsive project cards
+- Existing local brand assets from `assets/img`
+
+## Local Preview
+
+From the repository root:
+
+```bash
+python3 -m http.server 4173
+```
+
+Then open:
+
+```text
+http://127.0.0.1:4173/index.html
+```
 
 ## Contact
 
 - LinkedIn: [linkedin.com/in/mylo-kaye](https://www.linkedin.com/in/mylo-kaye/)
 - GitHub: [@mylokaye](https://github.com/mylokaye)
-- Email: mylo@mylokaye.com
 
 ## License
 
-Copyright © 2025 Mylo Kaye. All rights reserved.
+Copyright (c) 2026 Mylo Kaye. All rights reserved.

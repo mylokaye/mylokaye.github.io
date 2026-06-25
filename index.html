@@ -1,53 +1,31 @@
-<!DOCTYPE html>
-<html data-bs-theme="light" lang="en">
-
-<head>
+<!doctype html>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Mylo Kaye - GitHub Showcase</title>
-    <meta name="description" content="Mylo Kaye designs customer journeys that transform complex global B2B relationships into measurable growth. Showcasing GitHub projects built for Dynamics 365.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mylo Kaye - GitHub Projects</title>
+    <meta name="description" content="A personal project showcase for Mylo Kaye, focused on Dynamics 365 Customer Insights, browser tooling, email utilities, and practical web experiments.">
     <meta name="author" content="Mylo Kaye">
-    <meta name="keywords" content="Mylo Kaye, Dynamics 365, Customer Insights, Marketing Automation, GitHub, B2B Marketing, Customer Journeys, Power Platform, Microsoft">
+    <meta name="theme-color" content="#070a12">
+    <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://mylokaye.info/">
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-0K36MBFB25"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-0K36MBFB25');
-</script>
-    <!-- Open Graph Meta Tags -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://mylokaye.info/">
-    <meta property="og:title" content="Mylo Kaye - GitHub Showcase">
-    <meta property="og:description" content="Mylo Kaye designs customer journeys that transform complex global B2B relationships into measurable growth. Showcasing GitHub projects built for Dynamics 365.">
-    <meta property="og:image" content="https://mylokaye.info/assets/social-share.jpg">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Mylo Kaye - Transforming B2B relationships through Dynamics 365 innovation">
+    <meta property="og:title" content="Mylo Kaye - GitHub Projects">
+    <meta property="og:description" content="Dynamics 365 Customer Insights tools, documentation, and browser-based utilities by Mylo Kaye.">
+    <meta property="og:image" content="https://mylokaye.info/assets/img/social-share.jpg">
+    <meta property="og:image:alt" content="Mylo Kaye GitHub project showcase">
     <meta property="og:site_name" content="Mylo Kaye">
     <meta property="og:locale" content="en_GB">
 
-    <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://mylokaye.info/">
-    <meta name="twitter:title" content="Mylo Kaye - GitHub Showcase">
-    <meta name="twitter:description" content="Mylo Kaye designs customer journeys that transform complex global B2B relationships into measurable growth.">
-    <meta name="twitter:image" content="https://mylokaye.info/assets/social-share.jpg">
-    <meta name="twitter:image:alt" content="Mylo Kaye - Transforming B2B relationships through Dynamics 365 innovation">
-    <meta name="twitter:creator" content="@mylokaye">
-    <meta name="twitter:site" content="@mylokaye">
+    <meta name="twitter:title" content="Mylo Kaye - GitHub Projects">
+    <meta name="twitter:description" content="Dynamics 365 Customer Insights tools, documentation, and browser-based utilities by Mylo Kaye.">
+    <meta name="twitter:image" content="https://mylokaye.info/assets/img/social-share.jpg">
+    <meta name="twitter:image:alt" content="Mylo Kaye GitHub project showcase">
 
-    <!-- Additional Meta Tags -->
-    <meta name="theme-color" content="#476e83">
-    <meta name="robots" content="index, follow">
-    <meta name="classification" content="Technology, Software Development, Marketing Automation">
-    <meta name="coverage" content="Worldwide">
-    <meta name="target" content="Dynamics 365 Developers, Marketing Professionals, B2B Marketers">
-
-    <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
     <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon-96x96.png">
     <link rel="icon" type="image/png" href="assets/img/favicon.png">
@@ -55,308 +33,380 @@
     <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
     <link rel="manifest" href="assets/img/site.webmanifest">
 
-    <!-- Preconnect for performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <!-- Preload critical resources -->
-    <link rel="preload" href="assets/bootstrap/css/bootstrap.min.css" as="style">
-    <link rel="preload" href="assets/css/template.css" as="style">
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" as="style">
-
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "name": "Mylo Kaye - Manchester",
-            "url": "https://mylokaye.info",
-            "author": {
-                "@type": "Person",
-                "name": "Mylo Kaye"
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['"Plus Jakarta Sans"', "Inter", "ui-sans-serif", "system-ui", "sans-serif"],
+              mono: ['"JetBrains Mono"', "SFMono-Regular", "ui-monospace", "monospace"]
             },
-            "description": "Mylo Kaye designs customer journeys that transform complex global B2B relationships into measurable growth. Showcasing GitHub projects built for Dynamics 365.",
-            "inLanguage": "en-GB"
-        }
-    </script>
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "Person",
-            "name": "Mylo Kaye",
-            "url": "https://mylokaye.info",
-            "image": "https://avatars.githubusercontent.com/u/109611715?v=4",
-            "jobTitle": "Customer Journey Specialist",
-            "description": "Mylo Kaye designs customer journeys that transform complex global B2B relationships into measurable growth. Based in Manchester, UK, specializing in Dynamics 365 and the Power Platform.",
-            "address": {
-                "@type": "PostalAddress",
-                "addressLocality": "Manchester",
-                "addressCountry": "GB"
+            colors: {
+              ink: "#f8fafc",
+              muted: "#cbd5e1",
+              line: "rgba(255,255,255,0.12)",
+              panel: "rgba(8,13,25,0.72)",
+              panelStrong: "rgba(8,13,25,0.88)",
+              accent: "#67e8f9",
+              accentSoft: "rgba(103,232,249,0.10)",
+              gold: "#facc15",
+              ember: "#f97316"
             },
-            "sameAs": [
-                "https://www.linkedin.com/in/mylo-kaye/",
-                "https://github.com/mylokaye"
-            ],
-            "knowsAbout": [
-                "Dynamics 365",
-                "Customer Insights Journeys",
-                "Marketing Automation",
-                "Power Platform",
-                "B2B Marketing",
-                "Customer Journey Design"
-            ]
+            boxShadow: {
+              soft: "0 24px 80px rgba(0, 0, 0, 0.34)",
+              control: "0 14px 38px rgba(103, 232, 249, 0.22)"
+            }
+          }
         }
+      };
+    </script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        min-height: 100vh;
+        background:
+          radial-gradient(circle at 50% 100%, rgba(20, 184, 166, 0.18), transparent 34%),
+          linear-gradient(135deg, #070a12 0%, #111827 48%, #1a1024 100%);
+      }
+
+      body::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        z-index: 0;
+        pointer-events: none;
+        opacity: 0.34;
+        background:
+          linear-gradient(120deg, rgba(103, 232, 249, 0.16), transparent 34%),
+          linear-gradient(260deg, rgba(244, 114, 182, 0.12), transparent 40%),
+          url("data:image/svg+xml,%3Csvg viewBox='0 0 1000 1000' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.72' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.2'/%3E%3C/svg%3E");
+      }
+
+      .grid-overlay {
+        background-image:
+          linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
+        background-size: 48px 48px;
+        mask-image: linear-gradient(to bottom, black, transparent 72%);
+      }
+
+      .project-card {
+        transition: transform 220ms ease, border-color 220ms ease, background 220ms ease;
+      }
+
+      .project-card:hover {
+        transform: translateY(-4px);
+        border-color: rgba(103, 232, 249, 0.46);
+        background: rgba(15, 23, 42, 0.82);
+      }
+
+      .focus-ring:focus-visible {
+        outline: 2px solid #67e8f9;
+        outline-offset: 3px;
+      }
+    </style>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Mylo Kaye",
+        "url": "https://mylokaye.info",
+        "image": "https://avatars.githubusercontent.com/u/109611715?v=4",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Manchester",
+          "addressCountry": "GB"
+        },
+        "sameAs": [
+          "https://github.com/mylokaye",
+          "https://www.linkedin.com/in/mylo-kaye/"
+        ],
+        "knowsAbout": [
+          "Dynamics 365",
+          "Customer Insights Journeys",
+          "Marketing Automation",
+          "Email Tooling",
+          "JavaScript"
+        ]
+      }
     </script>
     <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "ItemList",
-            "name": "GitHub Projects by Mylo Kaye",
-            "description": "Collection of open-source projects for Dynamics 365 and Microsoft platforms",
-            "itemListElement": [
-                {
-                    "@type": "SoftwareSourceCode",
-                    "position": 1,
-                    "name": "Marketing Asset Review",
-                    "description": "A precision-built prompt for Copilot Studio Agents or ChatGPT designed to review and optimise marketing assets",
-                    "url": "https://github.com/mylokaye/AI-Marketing-Asset-Review",
-                    "codeRepository": "https://github.com/mylokaye/AI-Marketing-Asset-Review",
-                    "programmingLanguage": "Prompt Engineering",
-                    "runtimePlatform": "Microsoft Copilot Studio, ChatGPT",
-                    "applicationCategory": "DeveloperApplication"
-                },
-                {
-                    "@type": "SoftwareSourceCode",
-                    "position": 2,
-                    "name": "Dynamics 365 Customer Insights Forms Documentation",
-                    "description": "Comprehensive documentation for creating, customizing, and managing forms in Dynamics 365 Customer Insights - Journeys",
-                    "url": "https://github.com/mylokaye/Dynamics-365-CIJ-Documentation",
-                    "codeRepository": "https://github.com/mylokaye/Dynamics-365-CIJ-Documentation",
-                    "programmingLanguage": "Markdown",
-                    "runtimePlatform": "Dynamics 365 Customer Insights",
-                    "applicationCategory": "Documentation"
-                },
-                {
-                    "@type": "SoftwareSourceCode",
-                    "position": 3,
-                    "name": "Dynamics 365 Form Debugger",
-                    "description": "Browser extension that temporarily disables Dynamics 365 Customer Insights Forms cache",
-                    "url": "https://github.com/mylokaye/Dynamics-365-CIJ-Form-Debugger",
-                    "codeRepository": "https://github.com/mylokaye/Dynamics-365-CIJ-Form-Debugger",
-                    "programmingLanguage": "JavaScript",
-                    "runtimePlatform": "Microsoft Edge, Google Chrome",
-                    "applicationCategory": "BrowserExtension"
-                },
-                {
-                    "@type": "SoftwareSourceCode",
-                    "position": 4,
-                    "name": "Dynamics 365 Form Translator",
-                    "description": "Multi-language contact form for Dynamics 365 Marketing with built-in internationalization support",
-                    "url": "https://github.com/mylokaye/Dynamics-365-Form-Translator",
-                    "codeRepository": "https://github.com/mylokaye/Dynamics-365-Form-Translator",
-                    "programmingLanguage": "HTML, CSS, JavaScript",
-                    "runtimePlatform": "Dynamics 365 Customer Insights",
-                    "applicationCategory": "WebApplication"
-                },
-                {
-                    "@type": "SoftwareSourceCode",
-                    "position": 5,
-                    "name": "Dynamics 365 Customer Insights Forms",
-                    "description": "A comprehensive styled version of Customer Insights Journeys Forms with modern design patterns",
-                    "url": "https://github.com/mylokaye/Dynamics-365-CIJ-Forms",
-                    "codeRepository": "https://github.com/mylokaye/Dynamics-365-CIJ-Forms",
-                    "programmingLanguage": "HTML, CSS, JavaScript",
-                    "runtimePlatform": "Dynamics 365 Customer Insights",
-                    "applicationCategory": "WebApplication"
-                },
-                {
-                    "@type": "SoftwareSourceCode",
-                    "position": 6,
-                    "name": "Dynamics 365 Preference Center",
-                    "description": "Customizable preference center templates for Dynamics 365 Customer Insights",
-                    "url": "https://github.com/mylokaye/Dynamics-365-Preference-Center",
-                    "codeRepository": "https://github.com/mylokaye/Dynamics-365-Preference-Center",
-                    "programmingLanguage": "HTML, CSS, JavaScript",
-                    "runtimePlatform": "Dynamics 365 Customer Insights",
-                    "applicationCategory": "WebApplication"
-                },
-                {
-                    "@type": "SoftwareSourceCode",
-                    "position": 7,
-                    "name": "1-Click Feedback System",
-                    "description": "Email newsletter feedback system with public feedback collection page and admin dashboard",
-                    "url": "https://github.com/mylokaye/1-Click-Feedback",
-                    "codeRepository": "https://github.com/mylokaye/1-Click-Feedback",
-                    "programmingLanguage": "TypeScript, JavaScript",
-                    "runtimePlatform": "Next.js, Supabase",
-                    "applicationCategory": "WebApplication"
-                },
-                {
-                    "@type": "SoftwareSourceCode",
-                    "position": 8,
-                    "name": "Form Email Validator",
-                    "description": "Email validation solution for contact forms with real-time validation and verification",
-                    "url": "https://github.com/mylokaye/Form-email-validator",
-                    "codeRepository": "https://github.com/mylokaye/Form-email-validator",
-                    "programmingLanguage": "JavaScript",
-                    "runtimePlatform": "Web Browser",
-                    "applicationCategory": "WebApplication"
-                }
-            ]
-        }
+      {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "Top GitHub Projects by Mylo Kaye",
+        "itemListElement": [
+          {
+            "@type": "SoftwareSourceCode",
+            "position": 1,
+            "name": "D365-CIJ-Forms-Debugger",
+            "description": "Temporarily disables Dynamics 365 Customer Insights Forms cache for faster form testing and validation in Edge or Chrome.",
+            "codeRepository": "https://github.com/mylokaye/D365-CIJ-Forms-Debugger",
+            "programmingLanguage": "JavaScript"
+          },
+          {
+            "@type": "SoftwareSourceCode",
+            "position": 2,
+            "name": "Pattens-basic",
+            "description": "Browser-based tools for email lists, email HTML, campaign naming, and campaign assets.",
+            "codeRepository": "https://github.com/mylokaye/Pattens-basic",
+            "programmingLanguage": "JavaScript"
+          },
+          {
+            "@type": "SoftwareSourceCode",
+            "position": 3,
+            "name": "forms-v2",
+            "description": "Testing UI and UX of basic HTML forms.",
+            "codeRepository": "https://github.com/mylokaye/forms-v2",
+            "programmingLanguage": "HTML"
+          },
+          {
+            "@type": "SoftwareSourceCode",
+            "position": 4,
+            "name": "D365-CIJ-Forms-Docs",
+            "description": "Documentation for creating, customizing, and managing Dynamics 365 Customer Insights - Journeys forms.",
+            "codeRepository": "https://github.com/mylokaye/D365-CIJ-Forms-Docs",
+            "programmingLanguage": "HTML"
+          }
+        ]
+      }
     </script>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap">
-    <link rel="stylesheet" href="assets/css/template.css">
-</head>
+  </head>
+  <body class="overflow-x-hidden font-sans text-ink antialiased">
+    <div class="grid-overlay fixed inset-0 z-0 pointer-events-none"></div>
 
-<body class="bg-gradient-body">
-    <nav class="navbar navbar-expand-lg py-3" data-bs-theme="dark">
-        <div class="container"><a class="navbar-brand d-flex align-items-center" href="/" aria-label="Mylo Kaye Home"><img class="img-fluid" style="height: 38px;" src="assets/img/logos/logo.png" alt="Mylo Kaye Logo"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-3" aria-label="Toggle navigation"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navcol-3">
-                <ul class="navbar-nav mb-4 mb-lg-0 mx-auto">
-                    <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/form-debugger.html">Form Debugger</a></li>
-                </ul>
-            </div><a class="btn btn-success border-0" role="button" href="https://www.linkedin.com/in/mylo-kaye/" target="_blank" rel="noopener noreferrer" aria-label="Contact Mylo Kaye on LinkedIn">Get in touch</a>
-        </div>
-    </nav>
-    <main>
-    <header class="pt-5">
-        <div class="container">
-            <div class="row pt-3">
-                <div class="col col-md-8 col-lg-6 col-xl-5 text-center text-md-start mx-auto">
-                    <div class="text-center">
-                        <h1 class="display-2 fw-bold mb-3 heading">Mylo Kaye<br><span style="color: rgb(71, 110, 131);">.GitHub</span></h1>
-                        <p class="lead fs-2 fw-lighter lh-sm mb-4">Showcasing my GitHub projects built for Dynamics 365.</p>
-                        <div class="d-flex flex-column flex-grow-0 align-items-center mb-4 mb-xl-5"><small class="text-uppercase my-2">&gt; github.com/mylokaye</small><a class="btn btn-success border-0" role="button" href="https://github.com/mylokaye" target="_blank" rel="noopener noreferrer">View all projects</a></div>
-                    </div>
-                </div>
-                <div class="col-12 mx-auto">
-                    <div class="text-center">
-                    </div>
-                </div>
-    </header>
-    <section class="py-5" aria-label="Technology Partners">
-        <div class="container text-center"><small class="text-uppercase fw-bold d-block mb-2 mb-lg-4">Projects hosted on GitHub are used in Microsoft platforms</small>
-            <div class="d-flex justify-content-center align-items-center flex-wrap gap-4 p-3 px-xl-7">
-                <img width="219" height="56" src="assets/img/brands/github.svg" alt="GitHub - Source code hosting platform" loading="lazy">
-                <img width="291" height="63" src="assets/img/brands/microsoft.svg" alt="Microsoft - Technology partner" loading="lazy">
+    <main class="relative z-10 mx-auto flex min-h-screen max-w-[1440px] flex-col gap-8 px-5 py-7 lg:px-10">
+        <nav class="sticky top-4 z-50 flex flex-col gap-4 rounded-lg border border-cyan-200/30 bg-cyan-400/15 p-3 shadow-[0_18px_60px_rgba(8,145,178,0.24)] backdrop-blur-[22px] backdrop-saturate-150 sm:flex-row sm:items-center sm:justify-between" aria-label="Primary navigation">
+          <a href="/" class="focus-ring inline-flex items-center gap-3 rounded-md" aria-label="Mylo Kaye home">
+            <img src="assets/img/logos/logo.png" alt="Mylo Kaye" class="h-10 w-auto">
+          </a>
+          <div class="flex flex-wrap items-center gap-2">
+            <a class="focus-ring rounded-md px-3 py-2 text-sm font-bold text-accent transition hover:bg-accentSoft" href="#projects">Projects</a>
+            <a class="focus-ring inline-flex h-10 items-center justify-center gap-2 rounded-lg border border-accent bg-accent px-4 text-sm font-bold text-[#061014] shadow-control transition hover:bg-cyan-200" href="https://www.linkedin.com/in/mylo-kaye/" target="_blank" rel="noopener noreferrer">
+              <i data-lucide="mail" class="h-4 w-4"></i>
+              Contact
+            </a>
+          </div>
+        </nav>
+
+      <header class="flex flex-col gap-8 pb-2">
+        <section class="grid gap-6 lg:grid-cols-[minmax(0,1.1fr)_420px] lg:items-end">
+          <div class="pt-8 lg:pt-14">
+            <p class="font-mono text-sm font-semibold uppercase tracking-normal text-accent">github.com/mylokaye</p>
+            <h1 class="mt-5 max-w-5xl text-[clamp(2.75rem,3.55vw,4.25rem)] font-extrabold leading-[0.98] tracking-normal text-white">
+              Practical tools for Dynamics 365
+            </h1>
+            <p class="mt-6 max-w-2xl text-base font-medium leading-7 text-slate-300 md:text-lg">
+              I build small, focused utilities for testing Customer Insights forms, documenting tricky implementation paths, and making campaign work less repetitive.
+            </p>
+          </div>
+
+          <aside class="rounded-lg border border-white/15 bg-panel p-4 shadow-soft backdrop-blur-[18px]" aria-label="GitHub snapshot">
+            <div class="relative flex flex-col gap-3 border-b border-line pb-3 sm:flex-row sm:items-start sm:justify-between">
+              <div class="max-w-[260px]">
+                <p class="font-mono text-xs font-semibold uppercase tracking-normal text-muted">Profile</p>
+                <h2 class="mt-1 text-lg font-extrabold text-white">Mylo Kaye</h2>
+                <p class="mt-2 text-sm font-medium leading-6 text-slate-300">Transforming customer experiences with Dynamics 365 CRM across global markets.</p>
+              </div>
+              <span class="w-full rounded-full bg-white/10 px-3 py-1 text-center font-mono text-xs font-semibold text-accent sm:absolute sm:right-0 sm:top-0 sm:w-[300px]">Manchester, U.K.</span>
             </div>
-        </div>
-    </section>
-    <section aria-labelledby="projects-heading">
-        <div class="container py-4">
-            <div class="row mb-4">
-                <div class="col-md-8 col-xl-6 text-center mx-auto">
-                    <h2 id="projects-heading" class="text-uppercase fw-bold heading">GitHub Projects</h2>
-                </div>
+            <div class="mt-4 grid grid-cols-2 gap-3">
+              <div class="rounded-lg border border-line bg-black/20 p-3">
+                <p class="font-mono text-2xl font-semibold text-white">6</p>
+                <p class="mt-1 text-xs font-bold text-muted">Public repos</p>
+              </div>
+              <div class="rounded-lg border border-line bg-black/20 p-3">
+                <p class="font-mono text-2xl font-semibold text-white">20</p>
+                <p class="mt-1 text-xs font-bold text-muted">Stars</p>
+              </div>
+              <div class="rounded-lg border border-line bg-black/20 p-3">
+                <p class="font-mono text-2xl font-semibold text-white">JS</p>
+                <p class="mt-1 text-xs font-bold text-muted">Primary build language</p>
+              </div>
+              <div class="rounded-lg border border-line bg-black/20 p-3">
+                <p class="font-mono text-xl font-semibold text-white sm:text-2xl">Dynamics 365</p>
+                <p class="mt-1 text-xs font-bold text-muted">Core platform</p>
+              </div>
             </div>
-            <div class="row">
-                <div class="col col-xl-11 mx-auto">
-                    <div class="row gy-4 row-cols-1 row-cols-md-2 mx-auto">
-                        <div class="col">
-                            <article class="card bg-white bg-opacity-10 bg-gradient h-100">
-                                <div class="card-body text-center text-lg-start d-flex flex-column p-4">
-                                    <h3 class="fw-bold h5">Marketing Asset Review</h3>
-                                    <p class="text-muted mb-3">A precision-built prompt for Copilot Studio Agents or ChatGPT designed to review and optimise marketing assets - including emails, landing pages, and customer journeys.</p>
-                                    <a class="btn btn-success bg-white bg-opacity-10 border-0 mt-auto" href="https://github.com/mylokaye/AI-Marketing-Asset-Review" target="_blank" rel="noopener noreferrer" aria-label="View Marketing Asset Review project on GitHub">View Project</a>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col">
-                            <article class="card bg-white bg-opacity-10 bg-gradient h-100">
-                                <div class="card-body text-center text-lg-start d-flex flex-column p-4">
-                                    <h3 class="fw-bold h5">Dynamics 365 Customer Insights Forms Documentation</h3>
-                                    <p class="text-muted mb-3">Comprehensive documentation for creating, customizing, and managing forms in Dynamics 365 Customer Insights - Journeys.</p>
-                                    <a class="btn btn-success bg-white bg-opacity-10 border-0 mt-auto" href="https://github.com/mylokaye/Dynamics-365-CIJ-Documentation" target="_blank" rel="noopener noreferrer" aria-label="View Dynamics 365 Customer Insights Forms Documentation on GitHub">View Project</a>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col">
-                            <article class="card bg-white bg-opacity-10 bg-gradient h-100">
-                                <div class="card-body text-center text-lg-start d-flex flex-column p-4">
-                                    <h3 class="fw-bold h5">Dynamics 365 Form Debugger</h3>
-                                    <p class="text-muted mb-3">Browser extension that temporarily disables Dynamics 365 Customer Insights Forms cache, allowing you to test form changes quickly. Test, debug, and validate forms directly in Microsoft Edge / Chrome.</p>
-                                    <a class="btn btn-success bg-white bg-opacity-10 border-0 mt-auto" href="https://github.com/mylokaye/Dynamics-365-CIJ-Form-Debugger" target="_blank" rel="noopener noreferrer" aria-label="View Dynamics 365 Form Debugger project on GitHub">View Project</a>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col">
-                            <article class="card bg-white bg-opacity-10 bg-gradient h-100">
-                                <div class="card-body text-center text-lg-start d-flex flex-column p-4">
-                                    <h3 class="fw-bold h5">Dynamics 365 Form Translator</h3>
-                                    <p class="text-muted mb-3">Multi-language contact form for Dynamics 365 Marketing with built-in internationalization (i18n) support. Enables seamless form translations across multiple languages.</p>
-                                    <a class="btn btn-success bg-white bg-opacity-10 border-0 mt-auto" href="https://github.com/mylokaye/Dynamics-365-Form-Translator" target="_blank" rel="noopener noreferrer" aria-label="View Dynamics 365 Form Translator project on GitHub">View Project</a>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col">
-                            <article class="card bg-white bg-opacity-10 bg-gradient h-100">
-                                <div class="card-body text-center text-lg-start d-flex flex-column p-4">
-                                    <h3 class="fw-bold h5">Dynamics 365 Customer Insights Forms</h3>
-                                    <p class="text-muted mb-3">A comprehensive styled version of Customer Insights Journeys Forms with modern design patterns and best practices for Dynamics 365.</p>
-                                    <a class="btn btn-success bg-white bg-opacity-10 border-0 mt-auto" href="https://github.com/mylokaye/Dynamics-365-CIJ-Forms" target="_blank" rel="noopener noreferrer" aria-label="View Dynamics 365 Customer Insights Forms project on GitHub">View Project</a>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col">
-                            <article class="card bg-white bg-opacity-10 bg-gradient h-100">
-                                <div class="card-body text-center text-lg-start d-flex flex-column p-4">
-                                    <h3 class="fw-bold h5">Dynamics 365 Preference Center</h3>
-                                    <p class="text-muted mb-3">Customizable preference center templates for Dynamics 365 Customer Insights, enabling users to manage their communication preferences and consent settings.</p>
-                                    <a class="btn btn-success bg-white bg-opacity-10 border-0 mt-auto" href="https://github.com/mylokaye/Dynamics-365-Preference-Center" target="_blank" rel="noopener noreferrer" aria-label="View Dynamics 365 Preference Center project on GitHub">View Project</a>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col">
-                            <article class="card bg-white bg-opacity-10 bg-gradient h-100">
-                                <div class="card-body text-center text-lg-start d-flex flex-column p-4">
-                                    <h3 class="fw-bold h5">1-Click Feedback System</h3>
-                                    <p class="text-muted mb-3">Email newsletter feedback system with public feedback collection page and admin dashboard for viewing aggregated metrics. Built with Next.js and Supabase.</p>
-                                    <a class="btn btn-success bg-white bg-opacity-10 border-0 mt-auto" href="https://github.com/mylokaye/1-Click-Feedback" target="_blank" rel="noopener noreferrer" aria-label="View 1-Click Feedback System project on GitHub">View Project</a>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col">
-                            <article class="card bg-white bg-opacity-10 bg-gradient h-100">
-                                <div class="card-body text-center text-lg-start d-flex flex-column p-4">
-                                    <h3 class="fw-bold h5">Form Email Validator</h3>
-                                    <p class="text-muted mb-3">Email validation solution for contact forms. Ensures accurate email address collection with real-time validation and verification.</p>
-                                    <a class="btn btn-success bg-white bg-opacity-10 border-0 mt-auto" href="https://github.com/mylokaye/Form-email-validator" target="_blank" rel="noopener noreferrer" aria-label="View Form Email Validator project on GitHub">View Project</a>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </aside>
+        </section>
+      </header>
+
+      <section class="grid gap-4 border-y border-line py-6 md:grid-cols-3" aria-label="Project themes">
+        <div>
+          <p class="font-mono text-xs font-semibold uppercase tracking-normal text-accent">01</p>
+          <h2 class="mt-2 text-lg font-extrabold text-white">Debug faster</h2>
+          <p class="mt-2 text-sm leading-6 text-muted">Tools that remove friction from testing Dynamics 365 Customer Insights forms in the browser.</p>
         </div>
-    </section>
-    <section aria-labelledby="about-heading">
-        <div class="container py-4 py-lg-5">
-            <div class="row mb-4 mb-lg-5">
-                <div class="col-md-8 col-xl-5 text-center mx-auto">
-                    <h2 id="about-heading" class="text-uppercase fw-bold heading">Meet Mylo</h2><img class="rounded object-fit-cover mb-3" width="150" height="150" src="https://avatars.githubusercontent.com/u/109611715?v=4" alt="Mylo Kaye Profile Photo" loading="lazy">
-                    <p>Mylo Kaye is based in Manchester, UK. <br>Mylo designs customer journeys that transform complex global B2B relationships into measurable growth. I use Dynamics 365 and the Power Platform, combining behavioural data with personalised automations, to drive engagement and shorten sales cycles across our worldwide customer base.</p>
-                </div>
-            </div>
+        <div>
+          <p class="font-mono text-xs font-semibold uppercase tracking-normal text-accent">02</p>
+          <h2 class="mt-2 text-lg font-extrabold text-white">Document the path</h2>
+          <p class="mt-2 text-sm leading-6 text-muted">Reference material for repeatable form creation, customization, and journey implementation.</p>
         </div>
-    </section>
+        <div>
+          <p class="font-mono text-xs font-semibold uppercase tracking-normal text-accent">03</p>
+          <h2 class="mt-2 text-lg font-extrabold text-white">Ship browser tools</h2>
+          <p class="mt-2 text-sm leading-6 text-muted">Local-first web utilities for email lists, campaign assets, and interface experiments.</p>
+        </div>
+      </section>
+
+      <section id="projects" class="grid gap-5 lg:grid-cols-[280px_minmax(0,1fr)]">
+        <div class="lg:sticky lg:top-7 lg:self-start">
+          <p class="font-mono text-sm font-semibold uppercase tracking-normal text-accent">Pinned work</p>
+          <h2 class="mt-3 text-3xl font-extrabold leading-tight text-white">Four repositories that frame the work.</h2>
+          <p class="mt-4 text-sm leading-6 text-muted">Selected from the public GitHub profile: two Dynamics 365 form projects, one documentation hub, and one broader email-tooling workspace.</p>
+        </div>
+
+        <div class="grid gap-4 md:grid-cols-2">
+          <article class="project-card flex min-h-[290px] flex-col rounded-lg border border-white/15 bg-panel p-5 shadow-soft backdrop-blur-[18px]">
+            <div class="flex items-start justify-between gap-3">
+              <div class="flex items-center gap-3">
+                <span class="flex h-10 w-10 items-center justify-center rounded-lg bg-accentSoft text-accent">
+                  <i data-lucide="bug" class="h-5 w-5"></i>
+                </span>
+                <div>
+                  <p class="font-mono text-xs font-semibold uppercase tracking-normal text-muted">JavaScript</p>
+                  <h3 class="text-xl font-extrabold text-white">D365-CIJ-Forms-Debugger</h3>
+                </div>
+              </div>
+              <span class="h-3 w-3 rounded-full bg-emerald-400 shadow-[0_0_24px_rgba(52,211,153,0.45)]"></span>
+            </div>
+            <p class="mt-5 flex-1 text-sm leading-6 text-slate-300">Temporarily disables Dynamics 365 Customer Insights Forms cache, making form changes quicker to test, debug, and validate in Microsoft Edge or Chrome.</p>
+            <div class="mt-5 flex flex-wrap gap-2">
+              <span class="rounded-md bg-white/10 px-2.5 py-1 font-mono text-xs font-semibold text-muted">dynamics-365</span>
+              <span class="rounded-md bg-white/10 px-2.5 py-1 font-mono text-xs font-semibold text-muted">browser-extension</span>
+            </div>
+            <div class="mt-4 grid gap-2 sm:grid-cols-2">
+              <a class="focus-ring inline-flex min-h-11 items-center gap-2 rounded-lg border border-line bg-white/10 px-3 py-2 text-sm font-bold text-white transition hover:border-accent hover:text-accent" href="https://chromewebstore.google.com/detail/dynamics-365-form-debugge/kdhnliicfgopcijgepghgohnhafphohf" target="_blank" rel="noopener noreferrer">
+                <img src="assets/img/brands/chrome.png" alt="" class="h-5 w-5 shrink-0" loading="lazy">
+                <span>Chrome Web Store</span>
+              </a>
+              <a class="focus-ring inline-flex min-h-11 items-center gap-2 rounded-lg border border-line bg-white/10 px-3 py-2 text-sm font-bold text-white transition hover:border-accent hover:text-accent" href="https://microsoftedge.microsoft.com/addons/detail/dynamics-365-form-debugge/ceoaoafhphcpdokfdfkiilmndbepbbec?hl=en-GB" target="_blank" rel="noopener noreferrer">
+                <img src="assets/img/brands/edge.png" alt="" class="h-5 w-5 shrink-0" loading="lazy">
+                <span>Edge Add-ons</span>
+              </a>
+            </div>
+            <a class="focus-ring mt-5 inline-flex items-center gap-2 self-start rounded-md font-mono text-sm font-semibold text-accent hover:text-cyan-200" href="https://github.com/mylokaye/D365-CIJ-Forms-Debugger" target="_blank" rel="noopener noreferrer">
+              View repository
+              <i data-lucide="arrow-up-right" class="h-4 w-4"></i>
+            </a>
+          </article>
+
+          <article class="project-card flex min-h-[290px] flex-col rounded-lg border border-white/15 bg-panel p-5 shadow-soft backdrop-blur-[18px]">
+            <div class="flex items-start justify-between gap-3">
+              <div class="flex items-center gap-3">
+                <span class="flex h-10 w-10 items-center justify-center rounded-lg bg-accentSoft text-accent">
+                  <i data-lucide="book-open-text" class="h-5 w-5"></i>
+                </span>
+                <div>
+                  <p class="font-mono text-xs font-semibold uppercase tracking-normal text-muted">HTML</p>
+                  <h3 class="text-xl font-extrabold text-white">D365-CIJ-Forms-Docs</h3>
+                </div>
+              </div>
+              <span class="h-3 w-3 rounded-full bg-emerald-400 shadow-[0_0_24px_rgba(52,211,153,0.45)]"></span>
+            </div>
+            <p class="mt-5 flex-1 text-sm leading-6 text-slate-300">Comprehensive documentation for creating, customizing, and managing forms in Dynamics 365 Customer Insights - Journeys.</p>
+            <div class="mt-5 flex flex-wrap gap-2">
+              <span class="rounded-md bg-white/10 px-2.5 py-1 font-mono text-xs font-semibold text-muted">customer-insights</span>
+              <span class="rounded-md bg-white/10 px-2.5 py-1 font-mono text-xs font-semibold text-muted">documentation</span>
+            </div>
+            <a class="focus-ring mt-5 inline-flex items-center gap-2 self-start rounded-md font-mono text-sm font-semibold text-accent hover:text-cyan-200" href="https://github.com/mylokaye/D365-CIJ-Forms-Docs" target="_blank" rel="noopener noreferrer">
+              View repository
+              <i data-lucide="arrow-up-right" class="h-4 w-4"></i>
+            </a>
+          </article>
+
+          <article class="project-card flex min-h-[290px] flex-col rounded-lg border border-white/15 bg-panel p-5 shadow-soft backdrop-blur-[18px]">
+            <div class="flex items-start justify-between gap-3">
+              <div class="flex items-center gap-3">
+                <span class="flex h-10 w-10 items-center justify-center rounded-lg bg-accentSoft text-accent">
+                  <i data-lucide="mail-check" class="h-5 w-5"></i>
+                </span>
+                <div>
+                  <p class="font-mono text-xs font-semibold uppercase tracking-normal text-muted">JavaScript</p>
+                  <h3 class="text-xl font-extrabold text-white">Pattens-basic</h3>
+                </div>
+              </div>
+              <span class="h-3 w-3 rounded-full bg-emerald-400 shadow-[0_0_24px_rgba(52,211,153,0.45)]"></span>
+            </div>
+            <p class="mt-5 flex-1 text-sm leading-6 text-slate-300">PATTENS Email Tools is a browser-based toolkit for working with email lists, email HTML, generated campaign names, and campaign assets.</p>
+            <div class="mt-5 flex flex-wrap gap-2">
+              <span class="rounded-md bg-white/10 px-2.5 py-1 font-mono text-xs font-semibold text-muted">email</span>
+              <span class="rounded-md bg-white/10 px-2.5 py-1 font-mono text-xs font-semibold text-muted">campaign-tools</span>
+            </div>
+            <a class="focus-ring mt-5 inline-flex items-center gap-2 self-start rounded-md font-mono text-sm font-semibold text-accent hover:text-cyan-200" href="https://github.com/mylokaye/Pattens-basic" target="_blank" rel="noopener noreferrer">
+              View repository
+              <i data-lucide="arrow-up-right" class="h-4 w-4"></i>
+            </a>
+          </article>
+
+          <article class="project-card flex min-h-[290px] flex-col rounded-lg border border-white/15 bg-panel p-5 shadow-soft backdrop-blur-[18px]">
+            <div class="flex items-start justify-between gap-3">
+              <div class="flex items-center gap-3">
+                <span class="flex h-10 w-10 items-center justify-center rounded-lg bg-accentSoft text-accent">
+                  <i data-lucide="panel-top" class="h-5 w-5"></i>
+                </span>
+                <div>
+                  <p class="font-mono text-xs font-semibold uppercase tracking-normal text-muted">HTML</p>
+                  <h3 class="text-xl font-extrabold text-white">forms-v2</h3>
+                </div>
+              </div>
+              <span class="h-3 w-3 rounded-full bg-emerald-400 shadow-[0_0_24px_rgba(52,211,153,0.45)]"></span>
+            </div>
+            <p class="mt-5 flex-1 text-sm leading-6 text-slate-300">A compact UI and UX testing ground for basic HTML forms, useful for trying input patterns before applying them to production journey pages.</p>
+            <div class="mt-5 flex flex-wrap gap-2">
+              <span class="rounded-md bg-white/10 px-2.5 py-1 font-mono text-xs font-semibold text-muted">forms</span>
+              <span class="rounded-md bg-white/10 px-2.5 py-1 font-mono text-xs font-semibold text-muted">ux-testing</span>
+            </div>
+            <a class="focus-ring mt-5 inline-flex items-center gap-2 self-start rounded-md font-mono text-sm font-semibold text-accent hover:text-cyan-200" href="https://github.com/mylokaye/forms-v2" target="_blank" rel="noopener noreferrer">
+              View repository
+              <i data-lucide="arrow-up-right" class="h-4 w-4"></i>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section class="grid gap-5 rounded-lg border border-white/15 bg-panelStrong p-5 shadow-soft backdrop-blur-[18px] lg:grid-cols-[minmax(0,1fr)_360px]">
+        <div>
+          <p class="font-mono text-sm font-semibold uppercase tracking-normal text-accent">Working pattern</p>
+          <h2 class="mt-3 text-3xl font-extrabold leading-tight text-white">Small tools, clear docs, less waiting.</h2>
+          <p class="mt-4 max-w-3xl text-sm leading-6 text-slate-300">The projects share a practical theme: make Dynamics and campaign work easier to test in the browser, easier to explain to the next person, and easier to repeat without ceremony.</p>
+        </div>
+        <div class="grid gap-3">
+          <a class="focus-ring flex items-center justify-between rounded-lg border border-line bg-white/10 px-4 py-3 text-sm font-bold text-white transition hover:border-accent hover:text-accent" href="https://github.com/mylokaye" target="_blank" rel="noopener noreferrer">
+            All public repositories
+            <i data-lucide="arrow-up-right" class="h-4 w-4"></i>
+          </a>
+          <a class="focus-ring flex items-center justify-between rounded-lg border border-line bg-white/10 px-4 py-3 text-sm font-bold text-white transition hover:border-accent hover:text-accent" href="https://www.mylokaye.com" target="_blank" rel="noopener noreferrer">
+            Personal website
+            <i data-lucide="arrow-up-right" class="h-4 w-4"></i>
+          </a>
+          <a class="focus-ring flex items-center justify-between rounded-lg border border-line bg-white/10 px-4 py-3 text-sm font-bold text-white transition hover:border-accent hover:text-accent" href="https://www.linkedin.com/in/mylo-kaye/" target="_blank" rel="noopener noreferrer">
+            LinkedIn
+            <i data-lucide="arrow-up-right" class="h-4 w-4"></i>
+          </a>
+        </div>
+      </section>
+
+      <footer class="flex flex-col gap-3 border-t border-line py-6 text-sm text-muted sm:flex-row sm:items-center sm:justify-between">
+        <p>&copy; 2026 Mylo Kaye. Built around public GitHub projects.</p>
+        <div class="flex flex-wrap items-center gap-3 font-mono">
+          <p>Dynamics 365 / Customer Insights / Email tools</p>
+          <a class="text-accent hover:text-cyan-200" href="/privacy.html">Privacy</a>
+        </div>
+      </footer>
     </main>
-    <footer class="bg-body-secondary bg-opacity-25 bg-gradient mt-5 py-5" role="contentinfo">
-        <div class="container d-flex flex-column justify-content-between align-items-center flex-lg-row">
-            <div class="text-center text-lg-start mb-5 mb-lg-0"><a class="fs-4 fw-bold link-light" href="/"><img class="img-fluid me-2" style="height: 38px;" src="assets/img/logos/logo.png" alt="Mylo Kaye Logo"></a>
-                <p class="mt-1 mb-4">Building human centered experiences across Microsoft Dynamics 365: <br>Customer Insights Journeys.</p><a class="btn btn-success border-0" role="button" href="https://www.linkedin.com/in/mylo-kaye/">Get in touch</a>
-            </div>
-            <div class="text-center text-lg-end">
-                <div class="mb-lg-2"><a class="link-light" href="https://www.linkedin.com/in/mylo-kaye/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512" width="1em" height="1em" fill="currentColor" class="fs-5 me-2">
-                            <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. -->
-                            <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path>
-                        </svg></a></div>
-                <p class="text-muted mb-2">Copyright&nbsp; 2026© Mylo Kaye</p><a class="link-light text-white" href="/privacy.html" rel="noopener noreferrer">Privacy</a>
-            </div>
-        </div>
-    </footer>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-</body>
 
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
 </html>
