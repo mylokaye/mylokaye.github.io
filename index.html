@@ -19,8 +19,8 @@
     <meta property="og:title" content="Mylo Kaye | Dynamics 365 GitHub Projects">
     <meta property="og:description" content="Practical Dynamics 365 tools, documentation, browser extension links, and email utilities by Mylo Kaye.">
     <meta property="og:image" content="https://mylokaye.info/assets/img/social-share.jpg">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
+    <meta property="og:image:width" content="700">
+    <meta property="og:image:height" content="350">
     <meta property="og:image:alt" content="Mylo Kaye GitHub project showcase">
     <meta property="og:site_name" content="Mylo Kaye">
     <meta property="og:locale" content="en_GB">
@@ -41,8 +41,8 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/site.css">
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0K36MBFB25"></script>
 <script>
@@ -52,82 +52,6 @@
 
   gtag('config', 'G-0K36MBFB25');
 </script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            fontFamily: {
-              sans: ['"Plus Jakarta Sans"', "Inter", "ui-sans-serif", "system-ui", "sans-serif"],
-              mono: ['"JetBrains Mono"', "SFMono-Regular", "ui-monospace", "monospace"]
-            },
-            colors: {
-              ink: "#f8fafc",
-              muted: "#cbd5e1",
-              line: "rgba(255,255,255,0.12)",
-              panel: "rgba(8,13,25,0.72)",
-              panelStrong: "rgba(8,13,25,0.88)",
-              accent: "#67e8f9",
-              accentSoft: "rgba(103,232,249,0.10)",
-              gold: "#facc15",
-              ember: "#f97316"
-            },
-            boxShadow: {
-              soft: "0 24px 80px rgba(0, 0, 0, 0.34)",
-              control: "0 14px 38px rgba(103, 232, 249, 0.22)"
-            }
-          }
-        }
-      };
-    </script>
-    <style>
-      html {
-        scroll-behavior: smooth;
-      }
-
-      body {
-        min-height: 100vh;
-        background:
-          radial-gradient(circle at 50% 100%, rgba(20, 184, 166, 0.18), transparent 34%),
-          linear-gradient(135deg, #070a12 0%, #111827 48%, #1a1024 100%);
-      }
-
-      body::before {
-        content: "";
-        position: fixed;
-        inset: 0;
-        z-index: 0;
-        pointer-events: none;
-        opacity: 0.34;
-        background:
-          linear-gradient(120deg, rgba(103, 232, 249, 0.16), transparent 34%),
-          linear-gradient(260deg, rgba(244, 114, 182, 0.12), transparent 40%),
-          url("data:image/svg+xml,%3Csvg viewBox='0 0 1000 1000' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.72' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.2'/%3E%3C/svg%3E");
-      }
-
-      .grid-overlay {
-        background-image:
-          linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
-          linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
-        background-size: 48px 48px;
-        mask-image: linear-gradient(to bottom, black, transparent 72%);
-      }
-
-      .project-card {
-        transition: transform 220ms ease, border-color 220ms ease, background 220ms ease;
-      }
-
-      .project-card:hover {
-        transform: translateY(-4px);
-        border-color: rgba(103, 232, 249, 0.46);
-        background: rgba(15, 23, 42, 0.82);
-      }
-
-      .focus-ring:focus-visible {
-        outline: 2px solid #67e8f9;
-        outline-offset: 3px;
-      }
-    </style>
-    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -160,8 +84,8 @@
             "primaryImageOfPage": {
               "@type": "ImageObject",
               "url": "https://mylokaye.info/assets/img/social-share.jpg",
-              "width": 1200,
-              "height": 630
+              "width": 700,
+              "height": 350
             },
             "dateModified": "2026-06-25T00:00:00+01:00",
             "inLanguage": "en-GB"
@@ -278,7 +202,7 @@
           <div class="flex flex-wrap items-center gap-2">
             <a class="focus-ring rounded-md px-3 py-2 text-sm font-bold text-accent transition hover:bg-accentSoft" href="#projects">Projects</a>
             <a class="focus-ring inline-flex h-10 items-center justify-center gap-2 rounded-lg border border-accent bg-accent px-4 text-sm font-bold text-[#061014] shadow-control transition hover:bg-cyan-200" href="https://www.linkedin.com/in/mylo-kaye/" target="_blank" rel="noopener noreferrer">
-              <i data-lucide="mail" class="h-4 w-4"></i>
+              <svg aria-hidden="true" class="h-4 w-4"><use href="assets/img/icons.svg#mail"></use></svg>
               Contact
             </a>
           </div>
@@ -345,7 +269,7 @@
         </div>
       </section>
 
-      <section id="projects" class="grid gap-5 lg:grid-cols-[280px_minmax(0,1fr)]">
+      <section id="projects" class="scroll-mt-40 sm:scroll-mt-32 lg:scroll-mt-24 grid gap-5 lg:grid-cols-[280px_minmax(0,1fr)]">
         <div class="lg:sticky lg:top-7 lg:self-start">
           <p class="font-mono text-sm font-semibold uppercase tracking-normal text-accent">Pinned work</p>
           <h2 class="mt-3 text-3xl font-extrabold leading-tight text-white">Four repositories that frame the work.</h2>
@@ -356,7 +280,7 @@
             <div class="flex items-start justify-between gap-3">
               <div class="flex items-center gap-3">
                 <span class="flex h-10 w-10 items-center justify-center rounded-lg bg-accentSoft text-accent">
-                  <i data-lucide="bug" class="h-5 w-5"></i>
+                  <svg aria-hidden="true" class="h-5 w-5"><use href="assets/img/icons.svg#bug"></use></svg>
                 </span>
                 <div>
                   <p class="font-mono text-xs font-semibold uppercase tracking-normal text-muted">JavaScript</p>
@@ -382,7 +306,7 @@
             </div>
             <a class="focus-ring mt-5 inline-flex items-center gap-2 self-start rounded-md font-mono text-sm font-semibold text-accent hover:text-cyan-200" href="https://github.com/mylokaye/D365-CIJ-Forms-Debugger" target="_blank" rel="noopener noreferrer">
               View repository
-              <i data-lucide="arrow-up-right" class="h-4 w-4"></i>
+              <svg aria-hidden="true" class="h-4 w-4"><use href="assets/img/icons.svg#arrow-up-right"></use></svg>
             </a>
           </article>
 
@@ -390,7 +314,7 @@
             <div class="flex items-start justify-between gap-3">
               <div class="flex items-center gap-3">
                 <span class="flex h-10 w-10 items-center justify-center rounded-lg bg-accentSoft text-accent">
-                  <i data-lucide="book-open-text" class="h-5 w-5"></i>
+                  <svg aria-hidden="true" class="h-5 w-5"><use href="assets/img/icons.svg#book-open-text"></use></svg>
                 </span>
                 <div>
                   <p class="font-mono text-xs font-semibold uppercase tracking-normal text-muted">HTML</p>
@@ -406,7 +330,7 @@
             </div>
             <a class="focus-ring mt-5 inline-flex items-center gap-2 self-start rounded-md font-mono text-sm font-semibold text-accent hover:text-cyan-200" href="https://github.com/mylokaye/D365-CIJ-Forms-Docs" target="_blank" rel="noopener noreferrer">
               View repository
-              <i data-lucide="arrow-up-right" class="h-4 w-4"></i>
+              <svg aria-hidden="true" class="h-4 w-4"><use href="assets/img/icons.svg#arrow-up-right"></use></svg>
             </a>
           </article>
 
@@ -414,7 +338,7 @@
             <div class="flex items-start justify-between gap-3">
               <div class="flex items-center gap-3">
                 <span class="flex h-10 w-10 items-center justify-center rounded-lg bg-accentSoft text-accent">
-                  <i data-lucide="mail-check" class="h-5 w-5"></i>
+                  <svg aria-hidden="true" class="h-5 w-5"><use href="assets/img/icons.svg#mail-check"></use></svg>
                 </span>
                 <div>
                   <p class="font-mono text-xs font-semibold uppercase tracking-normal text-muted">JavaScript</p>
@@ -430,7 +354,7 @@
             </div>
             <a class="focus-ring mt-5 inline-flex items-center gap-2 self-start rounded-md font-mono text-sm font-semibold text-accent hover:text-cyan-200" href="https://github.com/mylokaye/Pattens-basic" target="_blank" rel="noopener noreferrer">
               View repository
-              <i data-lucide="arrow-up-right" class="h-4 w-4"></i>
+              <svg aria-hidden="true" class="h-4 w-4"><use href="assets/img/icons.svg#arrow-up-right"></use></svg>
             </a>
           </article>
 
@@ -438,7 +362,7 @@
             <div class="flex items-start justify-between gap-3">
               <div class="flex items-center gap-3">
                 <span class="flex h-10 w-10 items-center justify-center rounded-lg bg-accentSoft text-accent">
-                  <i data-lucide="panel-top" class="h-5 w-5"></i>
+                  <svg aria-hidden="true" class="h-5 w-5"><use href="assets/img/icons.svg#panel-top"></use></svg>
                 </span>
                 <div>
                   <p class="font-mono text-xs font-semibold uppercase tracking-normal text-muted">HTML</p>
@@ -456,7 +380,7 @@
             </div>
             <a class="focus-ring mt-5 inline-flex items-center gap-2 self-start rounded-md font-mono text-sm font-semibold text-accent hover:text-cyan-200" href="https://github.com/mylokaye/forms-v2" target="_blank" rel="noopener noreferrer">
               View repository
-              <i data-lucide="arrow-up-right" class="h-4 w-4"></i>
+              <svg aria-hidden="true" class="h-4 w-4"><use href="assets/img/icons.svg#arrow-up-right"></use></svg>
             </a>
           </article>
         </div>
@@ -465,21 +389,21 @@
       <section class="grid gap-5 rounded-lg border border-white/15 bg-panelStrong p-5 shadow-soft backdrop-blur-[18px] lg:grid-cols-[minmax(0,1fr)_360px]">
         <div>
           <p class="font-mono text-sm font-semibold uppercase tracking-normal text-accent">Methodology</p>
-          <h2 class="mt-3 text-3xl font-extrabold leading-tight text-white">Automation repeatable workflows.</h2>
-          <p class="mt-4 max-w-3xl text-sm leading-6 text-slate-300">The projects share a practical theme: make Microsfot 365 ecosystem work better for everyone.</p>
+          <h2 class="mt-3 text-3xl font-extrabold leading-tight text-white">Automate repeatable workflows.</h2>
+          <p class="mt-4 max-w-3xl text-sm leading-6 text-slate-300">The projects share a practical theme: make the Microsoft 365 ecosystem work better for everyone.</p>
         </div>
         <div class="grid gap-3">
           <a class="focus-ring flex items-center justify-between rounded-lg border border-line bg-white/10 px-4 py-3 text-sm font-bold text-white transition hover:border-accent hover:text-accent" href="https://github.com/mylokaye" target="_blank" rel="noopener noreferrer">
             All public repositories
-            <i data-lucide="arrow-up-right" class="h-4 w-4"></i>
+            <svg aria-hidden="true" class="h-4 w-4"><use href="assets/img/icons.svg#arrow-up-right"></use></svg>
           </a>
           <a class="focus-ring flex items-center justify-between rounded-lg border border-line bg-white/10 px-4 py-3 text-sm font-bold text-white transition hover:border-accent hover:text-accent" href="https://www.mylokaye.com" target="_blank" rel="noopener noreferrer">
             Personal website
-            <i data-lucide="arrow-up-right" class="h-4 w-4"></i>
+            <svg aria-hidden="true" class="h-4 w-4"><use href="assets/img/icons.svg#arrow-up-right"></use></svg>
           </a>
           <a class="focus-ring flex items-center justify-between rounded-lg border border-line bg-white/10 px-4 py-3 text-sm font-bold text-white transition hover:border-accent hover:text-accent" href="https://www.linkedin.com/in/mylo-kaye/" target="_blank" rel="noopener noreferrer">
             LinkedIn
-            <i data-lucide="arrow-up-right" class="h-4 w-4"></i>
+            <svg aria-hidden="true" class="h-4 w-4"><use href="assets/img/icons.svg#arrow-up-right"></use></svg>
           </a>
         </div>
       </section>
@@ -516,8 +440,5 @@
       </footer>
     </main>
 
-    <script>
-      lucide.createIcons();
-    </script>
   </body>
 </html>

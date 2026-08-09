@@ -19,8 +19,8 @@
     <meta property="og:title" content="Privacy Policy | Dynamics 365 Form Debugger by Mylo Kaye">
     <meta property="og:description" content="Privacy details for the Dynamics 365 Form Debugger extension, including local storage, permissions, and data collection.">
     <meta property="og:image" content="https://mylokaye.info/assets/img/social-share.jpg">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
+    <meta property="og:image:width" content="700">
+    <meta property="og:image:height" content="350">
     <meta property="og:image:alt" content="Mylo Kaye privacy policy">
     <meta property="og:site_name" content="Mylo Kaye">
     <meta property="og:locale" content="en_GB">
@@ -42,96 +42,8 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            fontFamily: {
-              sans: ['"Plus Jakarta Sans"', "Inter", "ui-sans-serif", "system-ui", "sans-serif"],
-              mono: ['"JetBrains Mono"', "SFMono-Regular", "ui-monospace", "monospace"]
-            },
-            colors: {
-              ink: "#f8fafc",
-              muted: "#cbd5e1",
-              line: "rgba(255,255,255,0.12)",
-              panel: "rgba(8,13,25,0.72)",
-              panelStrong: "rgba(8,13,25,0.88)",
-              accent: "#67e8f9",
-              accentSoft: "rgba(103,232,249,0.10)"
-            },
-            boxShadow: {
-              soft: "0 24px 80px rgba(0, 0, 0, 0.34)",
-              control: "0 14px 38px rgba(103, 232, 249, 0.22)"
-            }
-          }
-        }
-      };
-    </script>
-    <style>
-      html {
-        scroll-behavior: smooth;
-      }
-
-      body {
-        min-height: 100vh;
-        background:
-          radial-gradient(circle at 50% 100%, rgba(20, 184, 166, 0.18), transparent 34%),
-          linear-gradient(135deg, #070a12 0%, #111827 48%, #1a1024 100%);
-      }
-
-      body::before {
-        content: "";
-        position: fixed;
-        inset: 0;
-        z-index: 0;
-        pointer-events: none;
-        opacity: 0.34;
-        background:
-          linear-gradient(120deg, rgba(103, 232, 249, 0.16), transparent 34%),
-          linear-gradient(260deg, rgba(244, 114, 182, 0.12), transparent 40%),
-          url("data:image/svg+xml,%3Csvg viewBox='0 0 1000 1000' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.72' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.2'/%3E%3C/svg%3E");
-      }
-
-      .grid-overlay {
-        background-image:
-          linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
-          linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
-        background-size: 48px 48px;
-        mask-image: linear-gradient(to bottom, black, transparent 72%);
-      }
-
-      .policy-copy h2 {
-        margin-top: 2rem;
-        color: #ffffff;
-        font-size: 1.25rem;
-        font-weight: 800;
-        line-height: 1.2;
-      }
-
-      .policy-copy p,
-      .policy-copy li {
-        color: #cbd5e1;
-        font-size: 0.95rem;
-        font-weight: 500;
-        line-height: 1.8;
-      }
-
-      .policy-copy ul {
-        margin-top: 0.75rem;
-        display: grid;
-        gap: 0.5rem;
-        padding-left: 1.2rem;
-        list-style: disc;
-      }
-
-      .focus-ring:focus-visible {
-        outline: 2px solid #67e8f9;
-        outline-offset: 3px;
-      }
-    </style>
-    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/site.css">
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -202,8 +114,8 @@
             "primaryImageOfPage": {
               "@type": "ImageObject",
               "url": "https://mylokaye.info/assets/img/social-share.jpg",
-              "width": 1200,
-              "height": 630
+              "width": 700,
+              "height": 350
             },
             "datePublished": "2025-08-22",
             "dateModified": "2026-06-25T00:00:00+01:00",
@@ -224,7 +136,7 @@
         <div class="flex flex-wrap items-center gap-2">
           <a class="focus-ring rounded-md px-3 py-2 text-sm font-bold text-muted transition hover:bg-white/10 hover:text-white" href="/">Home</a>
           <a class="focus-ring inline-flex h-10 items-center justify-center gap-2 rounded-lg border border-accent bg-accent px-4 text-sm font-bold text-[#061014] shadow-control transition hover:bg-cyan-200" href="https://www.linkedin.com/in/mylo-kaye/" target="_blank" rel="noopener noreferrer">
-            <i data-lucide="mail" class="h-4 w-4"></i>
+            <svg aria-hidden="true" class="h-4 w-4"><use href="assets/img/icons.svg#mail"></use></svg>
             Contact
           </a>
         </div>
@@ -243,21 +155,21 @@
           <div class="mt-5 grid gap-2">
             <a class="focus-ring flex items-center justify-between rounded-lg border border-line bg-white/10 px-4 py-3 text-sm font-bold text-white transition hover:border-accent hover:text-accent" href="https://github.com/mylokaye/D365-CIJ-Forms-Debugger" target="_blank" rel="noopener noreferrer">
               GitHub repo
-              <i data-lucide="arrow-up-right" class="h-4 w-4"></i>
+              <svg aria-hidden="true" class="h-4 w-4"><use href="assets/img/icons.svg#arrow-up-right"></use></svg>
             </a>
             <a class="focus-ring flex items-center justify-between rounded-lg border border-line bg-white/10 px-4 py-3 text-sm font-bold text-white transition hover:border-accent hover:text-accent" href="https://chromewebstore.google.com/detail/dynamics-365-form-debugge/kdhnliicfgopcijgepghgohnhafphohf" target="_blank" rel="noopener noreferrer">
               Chrome store
-              <i data-lucide="arrow-up-right" class="h-4 w-4"></i>
+              <svg aria-hidden="true" class="h-4 w-4"><use href="assets/img/icons.svg#arrow-up-right"></use></svg>
             </a>
             <a class="focus-ring flex items-center justify-between rounded-lg border border-line bg-white/10 px-4 py-3 text-sm font-bold text-white transition hover:border-accent hover:text-accent" href="https://microsoftedge.microsoft.com/addons/detail/dynamics-365-form-debugge/ceoaoafhphcpdokfdfkiilmndbepbbec?hl=en-GB" target="_blank" rel="noopener noreferrer">
               Edge add-on
-              <i data-lucide="arrow-up-right" class="h-4 w-4"></i>
+              <svg aria-hidden="true" class="h-4 w-4"><use href="assets/img/icons.svg#arrow-up-right"></use></svg>
             </a>
           </div>
         </aside>
 
         <article class="policy-copy rounded-lg border border-white/15 bg-panelStrong p-5 shadow-soft backdrop-blur-[18px] md:p-8">
-          <p>Pattens - Dynamics 365 Form Debugger is a Chrome and Microsoft Edge browser extension designed to help Dynamics 365 developers and marketers test and troubleshoot forms more efficiently.</p>
+          <p>Dynamics 365 Form Debugger is a Chrome and Microsoft Edge browser extension designed to help Dynamics 365 developers and marketers test and troubleshoot forms more efficiently.</p>
 
           <h2>What The Extension Does</h2>
           <p>The extension is a client-side developer tool. It can append a <span class="font-mono text-accent">#d365mkt-nocache</span> tag to Dynamics 365 Marketing asset URLs to bypass cache during testing, provide optional developer-view features such as element highlighting, and help check forms across corporate websites.</p>
@@ -308,7 +220,7 @@
           <p>For questions, issues, or requests related to privacy, contact Mylo Kaye through <a class="font-bold text-accent hover:text-cyan-200" href="https://www.linkedin.com/in/mylo-kaye/" target="_blank" rel="noopener noreferrer">LinkedIn</a> or the public GitHub repository.</p>
 
           <h2>Trademarks</h2>
-          <p>Dynamics 365, Google Chrome, and Microsoft Edge are trademarks of their respective owners. Pattens - Dynamics 365 Form Debugger is an independent tool and is not affiliated with, endorsed by, or sponsored by Microsoft Corporation or Google. Product references are used for informational and compatibility purposes only.</p>
+          <p>Dynamics 365, Google Chrome, and Microsoft Edge are trademarks of their respective owners. Dynamics 365 Form Debugger is an independent tool and is not affiliated with, endorsed by, or sponsored by Microsoft Corporation or Google. Product references are used for informational and compatibility purposes only.</p>
         </article>
       </section>
 
@@ -323,8 +235,5 @@
       </footer>
     </main>
 
-    <script>
-      lucide.createIcons();
-    </script>
   </body>
 </html>
