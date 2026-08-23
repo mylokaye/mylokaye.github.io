@@ -10,7 +10,7 @@ Static source for [mylokaye.info](https://mylokaye.info/), a portfolio of Dynami
 - `/d365-form-skill/` — Customer Insights Forms Skill page
 - `/pattens/` — Pattens project page
 - `/agentic-form/` — Agentic Form project page
-- `/privacy.html` — website, analytics and extension privacy information
+- `/privacy.html` — website and extension privacy information
 
 ## Local development
 
@@ -26,9 +26,9 @@ Open `http://127.0.0.1:8000/`.
 
 `npm run build` compiles the Tailwind source into `assets/css/site.css`. On macOS, `npm run social` embeds the generated background and renders the editable SVG source into `assets/img/social-share.png`. `npm test` checks page metadata, JSON-LD syntax, internal links, local assets and sitemap coverage.
 
-## Analytics and privacy
+## Privacy
 
-Google Analytics is not loaded until a visitor explicitly accepts optional analytics. The visitor can reject analytics or reopen the choice from the Cookie settings button in the footer. Consent is stored locally in the browser.
+The website does not load analytics, set cookies, or store visitor preferences in the browser.
 
 ## Search and sharing
 

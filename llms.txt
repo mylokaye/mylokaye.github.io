@@ -15,7 +15,7 @@ LinkedIn: https://www.linkedin.com/in/mylokaye/
 - [Dynamics 365 Customer Insights Forms Skill](https://mylokaye.info/d365-form-skill/): Alpha, pre-development guidance project for inspecting and safely editing exported forms. Current documented version: 1.0.1.
 - [Pattens](https://mylokaye.info/pattens/): Privacy-focused campaign-operations toolkit for planning, naming and UTM workflows.
 - [Agentic Form](https://mylokaye.info/agentic-form/): Four-step B2B inquiry-form prototype with validation and local draft recovery.
-- [Privacy and cookies](https://mylokaye.info/privacy.html): Data handling for this website and the Form Debugger extension.
+- [Privacy](https://mylokaye.info/privacy.html): Data handling for this website and the Form Debugger extension.
 
 ## Source repositories and live tools
 

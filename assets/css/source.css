@@ -122,59 +122,6 @@ body::before {
   font-size: 0.9em;
 }
 
-.cookie-banner {
-  position: fixed;
-  right: 1rem;
-  bottom: 1rem;
-  left: 1rem;
-  z-index: 100;
-  margin-inline: auto;
-  max-width: 46rem;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  border-radius: 0.75rem;
-  background: rgba(8, 13, 25, 0.98);
-  padding: 1rem;
-  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.5);
-}
-
-.cookie-banner[hidden] {
-  display: none;
-}
-
-.cookie-banner__actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  margin-top: 1rem;
-}
-
-.cookie-banner__button {
-  min-height: 2.75rem;
-  border: 1px solid rgba(255, 255, 255, 0.16);
-  border-radius: 0.5rem;
-  padding: 0.65rem 1rem;
-  color: #ffffff;
-  font-size: 0.875rem;
-  font-weight: 800;
-  transition: border-color 180ms ease, background 180ms ease, color 180ms ease;
-}
-
-.cookie-banner__button:hover {
-  border-color: #67e8f9;
-  color: #67e8f9;
-}
-
-.cookie-banner__button--primary {
-  border-color: #67e8f9;
-  background: #67e8f9;
-  color: #061014;
-}
-
-.cookie-banner__button--primary:hover {
-  background: #a5f3fc;
-  color: #061014;
-}
-
 .focus-ring:focus-visible {
   outline: 2px solid #67e8f9;
   outline-offset: 3px;

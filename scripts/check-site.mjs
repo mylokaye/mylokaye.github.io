@@ -19,7 +19,6 @@ const canonicalUrls = [];
 
 for (const asset of [
   "assets/css/site.css",
-  "assets/js/site.js",
   "assets/img/site.webmanifest",
   "assets/img/social-share.png",
 ]) {
@@ -50,8 +49,6 @@ for (const page of pages) {
   if (!/<meta\s+name="description"\s+content="[^"]+"/i.test(html)) fail(page, "missing meta description");
   if (matches(html, /<h1(?:\s|>)/gi).length !== 1) fail(page, "must have exactly one h1");
   if (!/href="\/assets\/css\/site\.css"/i.test(html)) fail(page, "missing compiled site stylesheet");
-  if (!/src="\/assets\/js\/site\.js"[^>]*defer/i.test(html)) fail(page, "missing deferred site script");
-
   for (const property of ["og:title", "og:description", "og:url", "og:image"]) {
     if (!new RegExp(`<meta\\s+property="${property}"\\s+content="[^"]+"`, "i").test(html)) {
       fail(page, `missing ${property}`);
