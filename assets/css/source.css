@@ -47,6 +47,7 @@ body::before {
   background: rgba(15, 23, 42, 0.82);
 }
 
+.content-copy h2,
 .policy-copy h2 {
   margin-top: 2rem;
   color: #ffffff;
@@ -55,6 +56,17 @@ body::before {
   line-height: 1.2;
 }
 
+.content-copy h3,
+.policy-copy h3 {
+  margin-top: 1.5rem;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1.4;
+}
+
+.content-copy p,
+.content-copy li,
 .policy-copy p,
 .policy-copy li {
   color: #cbd5e1;
@@ -63,12 +75,104 @@ body::before {
   line-height: 1.8;
 }
 
+.content-copy p + p,
+.policy-copy p + p {
+  margin-top: 1rem;
+}
+
+.content-copy ul,
+.content-copy ol,
 .policy-copy ul {
   margin-top: 0.75rem;
   display: grid;
   gap: 0.5rem;
   padding-left: 1.2rem;
+}
+
+.content-copy ul,
+.policy-copy ul {
   list-style: disc;
+}
+
+.content-copy ol {
+  list-style: decimal;
+}
+
+.content-copy a,
+.policy-copy a {
+  color: #67e8f9;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: rgba(103, 232, 249, 0.42);
+  text-underline-offset: 0.2em;
+}
+
+.content-copy a:hover,
+.policy-copy a:hover {
+  color: #a5f3fc;
+}
+
+.content-copy code,
+.policy-copy code {
+  border-radius: 0.25rem;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.1rem 0.35rem;
+  color: #67e8f9;
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", ui-monospace, monospace;
+  font-size: 0.9em;
+}
+
+.cookie-banner {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  left: 1rem;
+  z-index: 100;
+  margin-inline: auto;
+  max-width: 46rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 0.75rem;
+  background: rgba(8, 13, 25, 0.98);
+  padding: 1rem;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.5);
+}
+
+.cookie-banner[hidden] {
+  display: none;
+}
+
+.cookie-banner__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.cookie-banner__button {
+  min-height: 2.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 0.5rem;
+  padding: 0.65rem 1rem;
+  color: #ffffff;
+  font-size: 0.875rem;
+  font-weight: 800;
+  transition: border-color 180ms ease, background 180ms ease, color 180ms ease;
+}
+
+.cookie-banner__button:hover {
+  border-color: #67e8f9;
+  color: #67e8f9;
+}
+
+.cookie-banner__button--primary {
+  border-color: #67e8f9;
+  background: #67e8f9;
+  color: #061014;
+}
+
+.cookie-banner__button--primary:hover {
+  background: #a5f3fc;
+  color: #061014;
 }
 
 .focus-ring:focus-visible {

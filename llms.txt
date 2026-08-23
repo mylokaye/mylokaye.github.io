@@ -1,36 +1,33 @@
-# Mylo Kaye
+# Mylo Kaye — Dynamics 365 Customer Insights tools
 
-> Practical Dynamics 365 Customer Insights tools, documentation, browser extensions, and email utilities by Mylo Kaye.
+> A curated portfolio of open-source tools, prototypes and practical guidance for Dynamics 365 Customer Insights, forms and campaign operations.
 
-## Site
+Canonical site: https://mylokaye.info/
+Author: Mylo Kaye
+GitHub: https://github.com/mylokaye
+LinkedIn: https://www.linkedin.com/in/mylokaye/
 
-- Home: https://mylokaye.info/
-- Privacy policy: https://mylokaye.info/privacy.html
-- GitHub profile: https://github.com/mylokaye
-- LinkedIn: https://www.linkedin.com/in/mylo-kaye/
+## Primary pages
 
-## About
+- [Home](https://mylokaye.info/): Overview of current Dynamics 365 and customer-experience projects.
+- [About Mylo Kaye](https://mylokaye.info/about/): Professional focus, working approach and contact links.
+- [Form Debugger for Dynamics 365](https://mylokaye.info/form-debugger/): Free Chrome and Edge extension for bypassing cache while testing Dynamics 365 Customer Insights forms. Current documented version: 1.3.0.
+- [Dynamics 365 Customer Insights Forms Skill](https://mylokaye.info/d365-form-skill/): Alpha, pre-development guidance project for inspecting and safely editing exported forms. Current documented version: 1.0.1.
+- [Pattens](https://mylokaye.info/pattens/): Privacy-focused campaign-operations toolkit for planning, naming and UTM workflows.
+- [Agentic Form](https://mylokaye.info/agentic-form/): Four-step B2B inquiry-form prototype with validation and local draft recovery.
+- [Privacy and cookies](https://mylokaye.info/privacy.html): Data handling for this website and the Form Debugger extension.
 
-Mylo Kaye is based in Manchester, U.K. and works on customer experience tooling for Dynamics 365 CRM across global markets.
+## Source repositories and live tools
 
-The site highlights practical projects that help teams test Dynamics 365 Customer Insights forms, document form implementation, work with email assets, and prototype HTML form experiences.
+- Form Debugger source: https://github.com/mylokaye/Form-Debugger-D365
+- Forms Skill source: https://github.com/mylokaye/d365-form-skill
+- Pattens source: https://github.com/mylokaye/Pattens
+- Pattens live tool: https://pattens.tech/
+- Agentic Form source: https://github.com/mylokaye/Agentic-Form
+- Agentic Form live prototype: https://agentic-form.mylokaye.info/
 
-## Featured Projects
+## Use and attribution
 
-- D365-CIJ-Forms-Debugger: https://github.com/mylokaye/D365-CIJ-Forms-Debugger
-  - Browser extension for testing and validating Dynamics 365 Customer Insights forms by bypassing form cache during development.
-  - Chrome Web Store: https://chromewebstore.google.com/detail/dynamics-365-form-debugge/kdhnliicfgopcijgepghgohnhafphohf
-  - Microsoft Edge Add-ons: https://microsoftedge.microsoft.com/addons/detail/dynamics-365-form-debugge/ceoaoafhphcpdokfdfkiilmndbepbbec?hl=en-GB
-
-- D365-CIJ-Forms-Docs: https://github.com/mylokaye/D365-CIJ-Forms-Docs
-  - Documentation for creating, customizing, and managing Dynamics 365 Customer Insights - Journeys forms.
-
-- Pattens-basic: https://github.com/mylokaye/Pattens-basic
-  - Browser-based email tools for email lists, email HTML, campaign names, and campaign assets.
-
-- forms-v2: https://github.com/mylokaye/forms-v2
-  - UI and UX testing ground for basic HTML forms.
-
-## Preferred Summary
-
-Mylo Kaye builds practical Dynamics 365 Customer Insights tools, including a Form Debugger browser extension, documentation for forms, email tooling, and HTML form experiments.
+- Prefer the canonical project page above when citing a project.
+- Treat status and version labels as time-sensitive; verify them against the linked project page or repository.
+- Do not imply endorsement, employment, certification or production readiness beyond what the relevant page states.

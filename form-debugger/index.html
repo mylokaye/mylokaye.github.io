@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dynamics 365 Form Debugger for Chrome and Edge | Mylo Kaye</title>
+    <meta name="description" content="Test Dynamics 365 Customer Insights - Journeys forms faster with cache bypass, Form ID detection, and editable hidden-field debugging for Chrome and Edge.">
+    <meta name="author" content="Mylo Kaye">
+    <meta name="theme-color" content="#070a12">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <link rel="canonical" href="https://mylokaye.info/form-debugger/">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mylokaye.info/form-debugger/">
+    <meta property="og:title" content="Dynamics 365 Form Debugger for Chrome and Edge">
+    <meta property="og:description" content="Cache bypass, Form ID detection, and editable hidden-field debugging for Customer Insights - Journeys forms.">
+    <meta property="og:image" content="https://mylokaye.info/assets/img/social-share.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Mylo Kaye - practical Dynamics 365 Customer Insights tools and guides">
+    <meta property="og:site_name" content="Mylo Kaye">
+    <meta property="og:locale" content="en_GB">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@mylokaye">
+    <meta name="twitter:creator" content="@mylokaye">
+    <meta name="twitter:title" content="Dynamics 365 Form Debugger for Chrome and Edge">
+    <meta name="twitter:description" content="Test Customer Insights - Journeys forms with cache bypass, Form ID detection, and editable hidden fields.">
+    <meta name="twitter:image" content="https://mylokaye.info/assets/img/social-share.png">
+    <meta name="twitter:image:alt" content="Mylo Kaye - practical Dynamics 365 Customer Insights tools and guides">
+
+    <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon-96x96.png">
+    <link rel="shortcut icon" href="/assets/img/favicon.ico">
+    <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+    <link rel="manifest" href="/assets/img/site.webmanifest">
+    <link rel="stylesheet" href="/assets/css/site.css">
+    <script src="/assets/js/site.js" defer></script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://mylokaye.info/#website",
+            "name": "Mylo Kaye",
+            "url": "https://mylokaye.info/",
+            "inLanguage": "en-GB"
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://mylokaye.info/form-debugger/#webpage",
+            "url": "https://mylokaye.info/form-debugger/",
+            "name": "Dynamics 365 Form Debugger for Chrome and Edge | Mylo Kaye",
+            "description": "Test Dynamics 365 Customer Insights - Journeys forms with cache bypass, Form ID detection, and editable hidden fields.",
+            "isPartOf": { "@id": "https://mylokaye.info/#website" },
+            "mainEntity": { "@id": "https://mylokaye.info/form-debugger/#software" },
+            "dateModified": "2026-08-23",
+            "breadcrumb": {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://mylokaye.info/" },
+                { "@type": "ListItem", "position": 2, "name": "Form Debugger", "item": "https://mylokaye.info/form-debugger/" }
+              ]
+            },
+            "inLanguage": "en-GB"
+          },
+          {
+            "@type": "SoftwareApplication",
+            "@id": "https://mylokaye.info/form-debugger/#software",
+            "name": "Dynamics 365 Form Debugger",
+            "alternateName": "Form Debugger for Dynamics 365",
+            "description": "A dependency-free Chrome and Microsoft Edge extension for debugging Dynamics 365 Customer Insights - Journeys forms.",
+            "url": "https://mylokaye.info/form-debugger/",
+            "applicationCategory": "DeveloperApplication",
+            "operatingSystem": "Google Chrome, Microsoft Edge",
+            "softwareVersion": "1.3.0",
+            "isAccessibleForFree": true,
+            "offers": { "@type": "Offer", "price": 0 },
+            "downloadUrl": [
+              "https://chromewebstore.google.com/detail/dynamics-365-form-debugge/kdhnliicfgopcijgepghgohnhafphohf",
+              "https://microsoftedge.microsoft.com/addons/detail/dynamics-365-form-debugge/ceoaoafhphcpdokfdfkiilmndbepbbec"
+            ],
+            "sameAs": "https://github.com/mylokaye/Form-Debugger-D365",
+            "author": { "@type": "Person", "@id": "https://mylokaye.info/#person", "name": "Mylo Kaye", "url": "https://mylokaye.info/about/" }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body class="overflow-x-hidden font-sans text-ink antialiased">
+    <div class="grid-overlay fixed inset-0 z-0 pointer-events-none"></div>
+    <main class="relative z-10 mx-auto flex min-h-screen max-w-[1120px] flex-col gap-8 px-5 py-7 lg:px-10">
+      <nav class="sticky top-4 z-50 flex flex-col gap-4 rounded-lg border border-white/10 bg-[#0b1020]/95 p-3 shadow-sm backdrop-blur-[18px] sm:flex-row sm:items-center sm:justify-between" aria-label="Primary navigation">
+        <a href="/" class="focus-ring inline-flex items-center gap-3 rounded-md" aria-label="Mylo Kaye home"><img src="/assets/img/logos/logo.png" width="1038" height="269" alt="Mylo Kaye" class="h-10 w-auto"></a>
+        <div class="flex flex-wrap items-center gap-2"><a class="focus-ring rounded-md px-3 py-2 text-sm font-bold text-muted transition hover:bg-white/10 hover:text-white" href="/#projects">All tools</a><a class="focus-ring rounded-md px-3 py-2 text-sm font-bold text-muted transition hover:bg-white/10 hover:text-white" href="/about/">About</a><a class="focus-ring inline-flex h-10 items-center justify-center rounded-lg border border-accent bg-accent px-4 text-sm font-bold text-[#061014] shadow-control transition hover:bg-cyan-200" href="https://chromewebstore.google.com/detail/dynamics-365-form-debugge/kdhnliicfgopcijgepghgohnhafphohf" target="_blank" rel="noopener noreferrer" data-analytics-event="browser-store" data-analytics-project="form-debugger">Install for Chrome</a></div>
+      </nav>
+
+      <nav class="font-mono text-xs font-semibold text-muted" aria-label="Breadcrumb"><a class="hover:text-accent" href="/">Home</a><span aria-hidden="true"> / </span><span class="text-white">Form Debugger</span></nav>
+
+      <header class="grid gap-6 pt-8 lg:grid-cols-[minmax(0,1fr)_320px] lg:items-end">
+        <div>
+          <p class="font-mono text-sm font-semibold uppercase text-accent">Browser extension · Version 1.3.0</p>
+          <h1 class="mt-4 max-w-4xl text-[clamp(2.6rem,5vw,4.4rem)] font-extrabold leading-[0.98] text-white">Form Debugger for Dynamics 365</h1>
+          <p class="mt-6 max-w-3xl text-lg font-medium leading-8 text-slate-300">Test Customer Insights - Journeys form changes without waiting for supported asset caches, inspect the active Form ID, and expose hidden fields for controlled submission testing.</p>
+        </div>
+        <aside class="rounded-lg border border-white/15 bg-panel p-5 shadow-soft">
+          <p class="font-mono text-xs font-semibold uppercase text-muted">Current release</p>
+          <p class="mt-2 text-2xl font-extrabold text-white">1.3.0</p>
+          <ul class="mt-4 grid gap-2 text-sm leading-6 text-slate-300"><li>Chrome and Microsoft Edge</li><li>Manifest V3</li><li>Apache-2.0 source</li><li>No runtime dependencies or telemetry</li></ul>
+        </aside>
+      </header>
+
+      <div class="grid gap-3 sm:grid-cols-3">
+        <a class="focus-ring flex min-h-12 items-center justify-center rounded-lg border border-accent bg-accent px-4 py-3 text-center text-sm font-extrabold text-[#061014] shadow-control transition hover:bg-cyan-200" href="https://chromewebstore.google.com/detail/dynamics-365-form-debugge/kdhnliicfgopcijgepghgohnhafphohf" target="_blank" rel="noopener noreferrer" data-analytics-event="browser-store" data-analytics-project="form-debugger">Chrome Web Store</a>
+        <a class="focus-ring flex min-h-12 items-center justify-center rounded-lg border border-line bg-white/10 px-4 py-3 text-center text-sm font-extrabold text-white transition hover:border-accent hover:text-accent" href="https://microsoftedge.microsoft.com/addons/detail/dynamics-365-form-debugge/ceoaoafhphcpdokfdfkiilmndbepbbec" target="_blank" rel="noopener noreferrer" data-analytics-event="browser-store" data-analytics-project="form-debugger">Microsoft Edge Add-ons</a>
+        <a class="focus-ring flex min-h-12 items-center justify-center rounded-lg border border-line bg-white/10 px-4 py-3 text-center text-sm font-extrabold text-white transition hover:border-accent hover:text-accent" href="https://github.com/mylokaye/Form-Debugger-D365" target="_blank" rel="noopener noreferrer" data-analytics-event="github-repository" data-analytics-project="form-debugger">View source on GitHub</a>
+      </div>
+
+      <img src="https://repository-images.githubusercontent.com/1092861955/ee316bce-716c-4a6d-be25-2f21917f9c0a" alt="Dynamics 365 Form Debugger extension interface" class="aspect-[2/1] w-full rounded-lg border border-white/15 object-cover shadow-soft" loading="lazy" decoding="async">
+
+      <article class="content-copy rounded-lg border border-white/15 bg-panelStrong p-5 shadow-soft md:p-8">
+        <h2>What the extension solves</h2>
+        <p>Customer Insights - Journeys forms can be embedded on many different websites and supported Dynamics asset URLs may continue serving a cached form while it is being tested. Form Debugger adds the supported <code>#d365mkt-nocache</code> hash, reports the detected Form ID in its popup, and makes hidden controls inspectable without converting the original inputs into visible submission fields.</p>
+
+        <h2>Core debugging features</h2>
+        <ul>
+          <li><strong>Automatic cache bypass:</strong> adds <code>#d365mkt-nocache</code> to supported <code>assets-*.mkt.dynamics.com</code> form URLs.</li>
+          <li><strong>Form ID detection:</strong> shows the active Dynamics Form ID in the popup and lets you copy it.</li>
+          <li><strong>Editable hidden fields:</strong> creates visible debug copies using the form's existing layout and a green debugging border.</li>
+          <li><strong>Dynamics field support:</strong> handles native hidden inputs and designer-hidden input, select, textarea, option-set, and lookup controls.</li>
+          <li><strong>Submission testing:</strong> synchronises debug-copy edits to the original controls and dispatches normal input or change events.</li>
+          <li><strong>Dynamic-form support:</strong> labels newly inserted hidden fields while avoiding duplicate debug controls.</li>
+          <li><strong>Feature control:</strong> stores one enabled or disabled preference locally and refreshes the active page when the browser permits.</li>
+        </ul>
+
+        <h2>How to use it</h2>
+        <ol>
+          <li>Install the extension from the Chrome Web Store or Microsoft Edge Add-ons.</li>
+          <li>Open a supported Dynamics standalone form or a website containing an embedded Customer Insights form.</li>
+          <li>Use the popup to confirm cache status, inspect or copy the Form ID, and check the installed version.</li>
+          <li>Edit a displayed hidden-field copy when a controlled submission test requires a different value.</li>
+          <li>Submit the host form only when you intend that website to receive the edited value.</li>
+        </ol>
+
+        <h2>What happens to hidden-field values</h2>
+        <p>The visible controls are debug copies. Their identifiers, names, required state, form association, and list bindings are removed so they cannot create duplicate submission values. Editing a copy updates the original hidden control and dispatches the corresponding browser event. The original control remains the value used by the host form.</p>
+
+        <h2>Privacy and permissions</h2>
+        <p>The extension does not collect or transmit form values, browsing history, credentials, or telemetry. Form IDs are read from the current page and displayed only in the popup. Hidden-field edits remain in the page session unless you submit the host website's form.</p>
+        <ul>
+          <li><code>activeTab</code> lets the popup request the detected Form ID from the current tab.</li>
+          <li><code>storage</code> stores only the enabled or disabled preference.</li>
+          <li><code>*://*.dynamics.com/*</code> allows cache bypass on supported Dynamics URLs.</li>
+          <li><code>&lt;all_urls&gt;</code> allows detection when a Dynamics form is embedded on a third-party site; inspection is limited to detected form containers.</li>
+        </ul>
+        <p>Read the complete <a href="/privacy.html#extension-privacy">extension privacy explanation</a>.</p>
+
+        <h2>Languages and support</h2>
+        <p>The popup is localised for English, Spanish, German, Japanese, French, Portuguese, Russian, Italian, Dutch, and Polish, with separate Portuguese catalogues for Brazil and Portugal. Chrome selects the closest supported browser-interface language and falls back to English.</p>
+
+        <h2>Independent project</h2>
+        <p>Dynamics 365 and Microsoft Edge are trademarks of Microsoft Corporation. Dynamics 365 Form Debugger is an independent tool created by Mylo Kaye and is not affiliated with, endorsed by, or sponsored by Microsoft Corporation.</p>
+      </article>
+
+      <section class="grid gap-4 md:grid-cols-2">
+        <a class="project-card rounded-lg border border-white/15 bg-panel p-5 shadow-soft" href="/d365-form-skill/"><p class="font-mono text-xs font-semibold uppercase text-accent">Related reference</p><h2 class="mt-2 text-xl font-extrabold text-white">Dynamics 365 Forms Skill</h2><p class="mt-2 text-sm leading-6 text-slate-300">Explore the alpha guidance for form structure, embedding, customisation, and published verification.</p></a>
+        <a class="project-card rounded-lg border border-white/15 bg-panel p-5 shadow-soft" href="/agentic-form/"><p class="font-mono text-xs font-semibold uppercase text-accent">Related prototype</p><h2 class="mt-2 text-xl font-extrabold text-white">Agentic Form</h2><p class="mt-2 text-sm leading-6 text-slate-300">See a portable staged form prototype with validation, enrichment, and responsive browser testing.</p></a>
+      </section>
+
+      <footer class="mt-auto rounded-lg border border-white/10 bg-white/[0.04] px-4 py-4 text-sm text-slate-300 shadow-sm backdrop-blur-[18px]">
+        <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between"><p class="font-semibold text-white">Designed and maintained by Mylo Kaye.</p><div class="flex flex-wrap items-center gap-4"><a class="font-semibold text-white transition hover:text-accent" href="/">Home</a><a class="font-semibold text-white transition hover:text-accent" href="/privacy.html">Privacy</a><button class="font-semibold text-white transition hover:text-accent" type="button" data-cookie-settings>Cookie settings</button></div></div>
+      </footer>
+    </main>
+  </body>
+</html>

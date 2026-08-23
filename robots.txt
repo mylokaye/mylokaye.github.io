@@ -1,11 +1,12 @@
-# robots.txt for mylokaye.info
-# Allow all search engines to crawl the site
+# Search discovery crawler used for ChatGPT search and citations.
+User-agent: OAI-SearchBot
+Allow: /
 
+# All other compliant search and AI crawlers.
 User-agent: *
 Allow: /
 
-# Disallow crawling of old/archived content
+# Retained archive exclusion.
 Disallow: /old/
 
-# Sitemap location
 Sitemap: https://mylokaye.info/sitemap.xml

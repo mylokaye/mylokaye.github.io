@@ -1,11 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./index.html', './privacy.html'],
+  content: [
+    './*.html',
+    './about/*.html',
+    './form-debugger/*.html',
+    './d365-form-skill/*.html',
+    './pattens/*.html',
+    './agentic-form/*.html'
+  ],
   theme: {
     extend: {
       fontFamily: {
-        sans: ['"Plus Jakarta Sans"', 'Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
-        mono: ['"JetBrains Mono"', 'SFMono-Regular', 'ui-monospace', 'monospace']
+        sans: ['ui-sans-serif', 'system-ui', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'sans-serif'],
+        mono: ['SFMono-Regular', 'Consolas', '"Liberation Mono"', 'ui-monospace', 'monospace']
       },
       colors: {
         ink: '#f8fafc',

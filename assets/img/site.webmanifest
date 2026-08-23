@@ -1,21 +1,25 @@
 {
-  "name": "Mylo Kaye - GitHub Showcase",
+  "id": "/",
+  "name": "Mylo Kaye - Dynamics 365 Tools",
   "short_name": "Mylo Kaye",
+  "description": "Practical Dynamics 365 Customer Insights tools, references, and browser utilities by Mylo Kaye.",
+  "start_url": "/",
+  "scope": "/",
   "icons": [
     {
       "src": "/assets/img/web-app-manifest-192x192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "maskable"
+      "purpose": "any maskable"
     },
     {
       "src": "/assets/img/web-app-manifest-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "maskable"
+      "purpose": "any maskable"
     }
   ],
-  "theme_color": "#476e83",
-  "background_color": "#476e83",
+  "theme_color": "#070a12",
+  "background_color": "#070a12",
   "display": "standalone"
 }
