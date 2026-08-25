@@ -70,10 +70,28 @@ for (const page of pages) {
   const jsonLdBlocks = matches(html, /<script\s+type="application\/ld\+json">([\s\S]*?)<\/script>/gi);
   if (jsonLdBlocks.length === 0) fail(page, "missing JSON-LD");
   for (const block of jsonLdBlocks) {
+    let structuredData;
     try {
-      JSON.parse(block[1]);
+      structuredData = JSON.parse(block[1]);
     } catch (error) {
       fail(page, `invalid JSON-LD: ${error.message}`);
+      continue;
+    }
+
+    const entities = Array.isArray(structuredData?.["@graph"])
+      ? structuredData["@graph"]
+      : [structuredData];
+    for (const entity of entities) {
+      const types = Array.isArray(entity?.["@type"]) ? entity["@type"] : [entity?.["@type"]];
+      if (!types.includes("ProfilePage")) continue;
+
+      const dateModified = entity.dateModified;
+      const hasIsoDateTime = typeof dateModified === "string"
+        && /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})$/.test(dateModified)
+        && !Number.isNaN(Date.parse(dateModified));
+      if (!hasIsoDateTime) {
+        fail(page, "ProfilePage dateModified must be a valid ISO 8601 date-time with timezone");
+      }
     }
   }
 
