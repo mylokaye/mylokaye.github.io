@@ -5,7 +5,8 @@
 Canonical site: https://mylokaye.info/
 Author: Mylo Kaye
 GitHub: https://github.com/mylokaye
-LinkedIn: https://www.linkedin.com/in/mylokaye/
+LinkedIn: https://www.linkedin.com/in/mylo-kaye/
+Full site context: https://mylokaye.info/llms-full.txt
 
 ## Primary pages
 

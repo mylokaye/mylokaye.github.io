@@ -21,6 +21,7 @@ for (const asset of [
   "assets/css/site.css",
   "assets/img/site.webmanifest",
   "assets/img/social-share.png",
+  "llms-full.txt",
 ]) {
   if (!existsSync(join(root, asset))) fail("site assets", `missing ${asset}`);
 }
@@ -47,6 +48,12 @@ for (const page of pages) {
   if (!/<html\s[^>]*lang="en-GB"/i.test(html)) fail(page, "missing lang=\"en-GB\"");
   if (matches(html, /<title>[^<]+<\/title>/gi).length !== 1) fail(page, "must have exactly one non-empty title");
   if (!/<meta\s+name="description"\s+content="[^"]+"/i.test(html)) fail(page, "missing meta description");
+  if (!/<meta\s+name="color-scheme"\s+content="dark"/i.test(html)) fail(page, "missing dark color-scheme metadata");
+  if (!/<meta\s+name="referrer"\s+content="strict-origin-when-cross-origin"/i.test(html)) fail(page, "missing strict referrer policy metadata");
+  const robots = html.match(/<meta\s+name="robots"\s+content="([^"]+)"/i)?.[1] ?? "";
+  for (const directive of ["index", "follow", "max-image-preview:large", "max-snippet:-1", "max-video-preview:-1"]) {
+    if (!robots.includes(directive)) fail(page, `missing robots directive ${directive}`);
+  }
   if (matches(html, /<h1(?:\s|>)/gi).length !== 1) fail(page, "must have exactly one h1");
   if (!/href="\/assets\/css\/site\.css"/i.test(html)) fail(page, "missing compiled site stylesheet");
   for (const property of ["og:title", "og:description", "og:url", "og:image"]) {
@@ -107,10 +114,16 @@ for (const canonical of canonicalUrls) {
   if (!sitemap.includes(`<loc>${canonical}</loc>`)) fail("sitemap.xml", `missing ${canonical}`);
 }
 
+const llmsFull = readFileSync(join(root, "llms-full.txt"), "utf8");
+for (const canonical of canonicalUrls) {
+  if (!llmsFull.includes(canonical)) fail("llms-full.txt", `missing ${canonical}`);
+}
+
 const repositoryText = [
   ...pages.map((page) => readFileSync(join(root, page), "utf8")),
   sitemap,
   readFileSync(join(root, "llms.txt"), "utf8"),
+  llmsFull,
 ].join("\n");
 for (const retiredName of ["D365-CIJ-Form-Debugger", "Pattens-basic", "forms-v2"]) {
   if (repositoryText.includes(retiredName)) fail("site content", `contains retired project reference ${retiredName}`);
