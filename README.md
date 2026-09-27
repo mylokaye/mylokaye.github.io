@@ -1,4 +1,4 @@
-# mylokaye.info
+# mylokaye.me
 
 Static source for [mylokaye.me](https://mylokaye.me/), a portfolio of Dynamics 365 Customer Insights tools and practical guides.
 

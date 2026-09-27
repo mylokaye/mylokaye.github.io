@@ -3,7 +3,7 @@ import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
-const origin = "https://mylokaye.info";
+const origin = "https://mylokaye.me";
 const pages = [
   "index.html",
   "about/index.html",

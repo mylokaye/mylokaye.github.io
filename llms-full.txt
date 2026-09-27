@@ -1,6 +1,6 @@
 # Mylo Kaye: Dynamics 365 Customer Insights tools and practical guides
 
-> Canonical source context for https://mylokaye.info/. This is a static, public portfolio of open-source tools, prototypes, and practical guidance for Dynamics 365 Customer Insights - Journeys, CRM workflows, campaign operations, and browser-based form testing.
+> Canonical source context for https://mylokaye.me/. This is a static, public portfolio of open-source tools, prototypes, and practical guidance for Dynamics 365 Customer Insights - Journeys, CRM workflows, campaign operations, and browser-based form testing.
 
 ## Identity and scope
 
@@ -17,30 +17,30 @@
 
 ## Canonical pages
 
-### Home — https://mylokaye.info/
+### Home — https://mylokaye.me/
 
 An overview of current Dynamics 365 Customer Insights tools and practical guides by Mylo Kaye.
 
-### About — https://mylokaye.info/about/
+### About — https://mylokaye.me/about/
 
 Professional background, scope of work, and contact options for Mylo Kaye.
 
-### Form Debugger — https://mylokaye.info/form-debugger/
+### Form Debugger — https://mylokaye.me/form-debugger/
 
 A dependency-free Chrome and Microsoft Edge extension for testing Dynamics 365 Customer Insights - Journeys forms. It supports cache bypass, Form ID inspection, and editable debug copies of hidden form fields. Source: https://github.com/mylokaye/Form-Debugger-D365.
 
-### Dynamics 365 Customer Insights Forms Skill — https://mylokaye.info/d365-form-skill/
+### Dynamics 365 Customer Insights Forms Skill — https://mylokaye.me/d365-form-skill/
 
 An alpha reference and Codex skill for safely inspecting, building, embedding, customising, and troubleshooting exported Dynamics 365 Customer Insights - Journeys forms. It is guidance and a testing aid, not a claim of production readiness. Source: https://github.com/mylokaye/d365-form-skill.
 
-### Pattens — https://mylokaye.info/pattens/
+### Pattens — https://mylokaye.me/pattens/
 
 A privacy-focused campaign-operations toolkit for validated campaign assets, email data checks, Dynamics FetchXML, simulations, and browser mockups. Source: https://github.com/mylokaye/Pattens. Live tool: https://pattens.tech/.
 
-### Agentic Form — https://mylokaye.info/agentic-form/
+### Agentic Form — https://mylokaye.me/agentic-form/
 
 A four-stage B2B inquiry-form prototype with validation, optional enrichment, editable suggestions, and local draft recovery. Submission remains local to the prototype and does not send an inquiry to a CRM or service. Source: https://github.com/mylokaye/Agentic-Form. Live prototype: https://agentic-form.mylokaye.info/.
 
-### Privacy — https://mylokaye.info/privacy.html
+### Privacy — https://mylokaye.me/privacy.html
 
 Data-handling information for the website and the Form Debugger browser extension, including local extension storage and browser permissions.

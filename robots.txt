@@ -9,4 +9,4 @@ Allow: /
 # Retained archive exclusion.
 Disallow: /old/
 
-Sitemap: https://mylokaye.info/sitemap.xml
+Sitemap: https://mylokaye.me/sitemap.xml
