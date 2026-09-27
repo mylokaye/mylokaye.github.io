@@ -1,6 +1,6 @@
 # mylokaye.info
 
-Static source for [mylokaye.info](https://mylokaye.info/), a portfolio of Dynamics 365 Customer Insights tools and practical guides.
+Static source for [mylokaye.me](https://mylokaye.me/), a portfolio of Dynamics 365 Customer Insights tools and practical guides.
 
 ## Pages
 
@@ -12,19 +12,6 @@ Static source for [mylokaye.info](https://mylokaye.info/), a portfolio of Dynami
 - `/agentic-form/` — Agentic Form project page
 - `/privacy.html` — website and extension privacy information
 
-## Local development
-
-```bash
-npm install
-npm run build
-npm run social
-npm test
-python3 -m http.server 8000 --bind 127.0.0.1
-```
-
-Open `http://127.0.0.1:8000/`.
-
-`npm run build` compiles the Tailwind source into `assets/css/site.css`. On macOS, `npm run social` embeds the generated background and renders the editable SVG source into `assets/img/social-share.png`. `npm test` checks page metadata, JSON-LD syntax, internal links, local assets and sitemap coverage.
 
 ## Privacy
 
