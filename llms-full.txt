@@ -41,6 +41,10 @@ A privacy-focused campaign-operations toolkit for validated campaign assets, ema
 
 A four-stage B2B inquiry-form prototype with validation, optional enrichment, editable suggestions, and local draft recovery. Submission remains local to the prototype and does not send an inquiry to a CRM or service. Source: https://github.com/mylokaye/Agentic-Form. Live prototype: https://agentic-form.mylokaye.info/.
 
+### VS HTML Preview — https://marketplace.visualstudio.com/items?itemName=MyloKaye.vs-html-preview
+
+A VS Code extension that previews HTML files in a browser-like panel, refreshes as the document changes, resolves relative assets, and supports GitHub remote workspaces. Source: https://github.com/mylokaye/vs-html-preview.
+
 ### Privacy — https://mylokaye.me/privacy.html
 
 Data-handling information for the website and the Form Debugger browser extension, including local extension storage and browser permissions.

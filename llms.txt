@@ -16,6 +16,7 @@ Full site context: https://mylokaye.me/llms-full.txt
 - [Dynamics 365 Customer Insights Forms Skill](https://mylokaye.me/d365-form-skill/): Alpha, pre-development guidance project for inspecting and safely editing exported forms. Current documented version: 1.0.1.
 - [Pattens](https://mylokaye.me/pattens/): Privacy-focused campaign-operations toolkit for planning, naming and UTM workflows.
 - [Agentic Form](https://mylokaye.me/agentic-form/): Four-step B2B inquiry-form prototype with validation and local draft recovery.
+- [VS HTML Preview](https://marketplace.visualstudio.com/items?itemName=MyloKaye.vs-html-preview): VS Code extension for previewing HTML files in a browser-like panel, including GitHub remote workspaces. Source: https://github.com/mylokaye/vs-html-preview.
 - [Privacy](https://mylokaye.me/privacy.html): Data handling for this website and the Form Debugger extension.
 
 ## Source repositories and live tools
@@ -26,6 +27,8 @@ Full site context: https://mylokaye.me/llms-full.txt
 - Pattens live tool: https://pattens.tech/
 - Agentic Form source: https://github.com/mylokaye/Agentic-Form
 - Agentic Form live prototype: https://agentic-form.mylokaye.info/
+- VS HTML Preview source: https://github.com/mylokaye/vs-html-preview
+- VS HTML Preview Marketplace: https://marketplace.visualstudio.com/items?itemName=MyloKaye.vs-html-preview
 
 ## Use and attribution
 
