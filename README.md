@@ -12,6 +12,9 @@ Static source for [mylokaye.me](https://mylokaye.me/), a portfolio of Dynamics 3
 - `/agentic-form/` — Agentic Form project page
 - `/privacy.html` — website and extension privacy information
 
+## Featured project
+
+- [VS HTML Preview](https://marketplace.visualstudio.com/items?itemName=MyloKaye.vs-html-preview) — a VS Code extension for previewing HTML files in a browser-like panel, with live refresh, relative asset support, and GitHub remote workspace support. [Source code](https://github.com/mylokaye/vs-html-preview).
 
 ## Privacy
 
