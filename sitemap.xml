@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mylokaye.me/</loc>
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-10-01</lastmod>
   </url>
   <url>
     <loc>https://mylokaye.me/about/</loc>
@@ -23,6 +23,10 @@
   <url>
     <loc>https://mylokaye.me/agentic-form/</loc>
     <lastmod>2026-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://mylokaye.me/html-preview/</loc>
+    <lastmod>2026-10-01</lastmod>
   </url>
   <url>
     <loc>https://mylokaye.me/privacy.html</loc>

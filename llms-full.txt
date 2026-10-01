@@ -29,7 +29,7 @@ Professional background, scope of work, and contact options for Mylo Kaye.
 
 A dependency-free Chrome and Microsoft Edge extension for testing Dynamics 365 Customer Insights - Journeys forms. It supports cache bypass, Form ID inspection, and editable debug copies of hidden form fields. Source: https://github.com/mylokaye/Form-Debugger-D365.
 
-### Dynamics 365 Customer Insights Forms Skill — https://mylokaye.me/d365-form-skill/
+### Form Studio — https://mylokaye.me/d365-form-skill/
 
 An alpha reference and Codex skill for safely inspecting, building, embedding, customising, and troubleshooting exported Dynamics 365 Customer Insights - Journeys forms. It is guidance and a testing aid, not a claim of production readiness. Source: https://github.com/mylokaye/d365-form-skill.
 
@@ -41,9 +41,9 @@ A privacy-focused campaign-operations toolkit for validated campaign assets, ema
 
 A four-stage B2B inquiry-form prototype with validation, optional enrichment, editable suggestions, and local draft recovery. Submission remains local to the prototype and does not send an inquiry to a CRM or service. Source: https://github.com/mylokaye/Agentic-Form. Live prototype: https://form.mylokaye.me/.
 
-### VS HTML Preview — https://marketplace.visualstudio.com/items?itemName=MyloKaye.vs-html-preview
+### VS HTML Preview — https://mylokaye.me/html-preview/
 
-A VS Code extension that previews HTML files in a browser-like panel, refreshes as the document changes, resolves relative assets, and supports GitHub remote workspaces. Source: https://github.com/mylokaye/vs-html-preview.
+A VS Code extension for live HTML previews beside the editor, responsive viewport presets, asset refresh, diagnostics, and GitHub workspace support. It is a static preview rather than a development server. Source: https://github.com/mylokaye/vs-html-preview. Marketplace: https://marketplace.visualstudio.com/items?itemName=MyloKaye.vs-html-preview.
 
 ### Privacy — https://mylokaye.me/privacy.html
 
