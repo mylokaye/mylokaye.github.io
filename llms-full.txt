@@ -35,11 +35,11 @@ An alpha reference and Codex skill for safely inspecting, building, embedding, c
 
 ### Pattens — https://mylokaye.me/pattens/
 
-A privacy-focused campaign-operations toolkit for validated campaign assets, email data checks, Dynamics FetchXML, simulations, and browser mockups. Source: https://github.com/mylokaye/Pattens. Live tool: https://pattens.tech/.
+A privacy-focused campaign-operations toolkit for validated campaign assets, email data checks, Dynamics FetchXML, simulations, and browser mockups. Source: https://github.com/mylokaye/Pattens. Live tool: https://pattens.mylokaye.me/.
 
 ### Agentic Form — https://mylokaye.me/agentic-form/
 
-A four-stage B2B inquiry-form prototype with validation, optional enrichment, editable suggestions, and local draft recovery. Submission remains local to the prototype and does not send an inquiry to a CRM or service. Source: https://github.com/mylokaye/Agentic-Form. Live prototype: https://agentic-form.mylokaye.info/.
+A four-stage B2B inquiry-form prototype with validation, optional enrichment, editable suggestions, and local draft recovery. Submission remains local to the prototype and does not send an inquiry to a CRM or service. Source: https://github.com/mylokaye/Agentic-Form. Live prototype: https://form.mylokaye.me/.
 
 ### VS HTML Preview — https://marketplace.visualstudio.com/items?itemName=MyloKaye.vs-html-preview
 
