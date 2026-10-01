@@ -38,7 +38,25 @@ body::before {
 }
 
 .project-card {
+  position: relative;
   transition: transform 220ms ease, border-color 220ms ease, background 220ms ease;
+}
+
+.project-card-link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 0.5rem;
+}
+
+.project-card-link:focus-visible::after {
+  outline: 2px solid #67e8f9;
+  outline-offset: 3px;
+}
+
+.project-card-external-link {
+  position: relative;
+  z-index: 1;
 }
 
 .project-card:hover {
