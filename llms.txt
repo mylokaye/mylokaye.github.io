@@ -24,9 +24,9 @@ Full site context: https://mylokaye.me/llms-full.txt
 - Form Debugger source: https://github.com/mylokaye/Form-Debugger-D365
 - Forms Skill source: https://github.com/mylokaye/d365-form-skill
 - Pattens source: https://github.com/mylokaye/Pattens
-- Pattens live tool: https://pattens.tech/
+- Pattens live tool: https://pattens.mylokaye.me/
 - Agentic Form source: https://github.com/mylokaye/Agentic-Form
-- Agentic Form live prototype: https://agentic-form.mylokaye.info/
+- Agentic Form live prototype: https://form.mylokaye.me/
 - VS HTML Preview source: https://github.com/mylokaye/vs-html-preview
 - VS HTML Preview Marketplace: https://marketplace.visualstudio.com/items?itemName=MyloKaye.vs-html-preview
 
