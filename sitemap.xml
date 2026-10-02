@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mylokaye.me/</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-10-02</lastmod>
   </url>
   <url>
     <loc>https://mylokaye.me/about/</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-10-02</lastmod>
   </url>
   <url>
     <loc>https://mylokaye.me/form-debugger/</loc>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-10-02</lastmod>
   </url>
   <url>
     <loc>https://mylokaye.me/d365-form-skill/</loc>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-10-02</lastmod>
   </url>
   <url>
     <loc>https://mylokaye.me/pattens/</loc>
@@ -22,11 +22,15 @@
   </url>
   <url>
     <loc>https://mylokaye.me/agentic-form/</loc>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-10-02</lastmod>
   </url>
   <url>
     <loc>https://mylokaye.me/html-preview/</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-10-02</lastmod>
+  </url>
+  <url>
+    <loc>https://mylokaye.me/foundations/</loc>
+    <lastmod>2026-10-02</lastmod>
   </url>
   <url>
     <loc>https://mylokaye.me/privacy.html</loc>

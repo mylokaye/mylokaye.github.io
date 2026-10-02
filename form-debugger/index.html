@@ -57,7 +57,7 @@
             "description": "Test Dynamics 365 Customer Insights - Journeys forms with cache bypass, Form ID detection, and editable hidden fields.",
             "isPartOf": { "@id": "https://mylokaye.me/#website" },
             "mainEntity": { "@id": "https://mylokaye.me/form-debugger/#software" },
-            "dateModified": "2026-08-31",
+            "dateModified": "2026-10-02",
             "breadcrumb": {
               "@type": "BreadcrumbList",
               "itemListElement": [
@@ -119,7 +119,7 @@
         <a class="focus-ring flex min-h-12 items-center justify-center rounded-lg border border-line bg-white/10 px-4 py-3 text-center text-sm font-extrabold text-white transition hover:border-accent hover:text-accent" href="https://github.com/mylokaye/Form-Debugger-D365" target="_blank" rel="noopener noreferrer">View source on GitHub</a>
       </div>
 
-      <img src="https://repository-images.githubusercontent.com/1092861955/43f316cf-c43c-4c1e-aca3-12d138939832" width="1280" height="640" alt="Dynamics 365 Form Debugger extension interface" class="aspect-[2/1] w-full rounded-lg border border-white/15 object-cover shadow-soft" loading="lazy" decoding="async">
+      <img src="https://raw.githubusercontent.com/mylokaye/Form-Debugger-D365/main/docs/dynamics-365-form-debugger-banner.jpg" width="1280" height="640" alt="Dynamics 365 Form Debugger browser extension" class="aspect-[2/1] w-full rounded-lg border border-white/15 object-cover shadow-soft" loading="lazy" decoding="async">
 
       <article class="content-copy rounded-lg border border-white/15 bg-panelStrong p-5 shadow-soft md:p-8">
         <h2>What the extension solves</h2>
@@ -127,13 +127,14 @@
 
         <h2>Core debugging features</h2>
         <ul>
-          <li><strong>Automatic cache bypass:</strong> adds <code>#d365mkt-nocache</code> to supported <code>assets-*.mkt.dynamics.com</code> form URLs.</li>
+          <li><strong>Automatic cache bypass:</strong> adds <code>#d365mkt-nocache</code> on HTTPS pages at <code>mkt.dynamics.com</code> and its subdomains, including numbered hosts.</li>
           <li><strong>Form ID detection:</strong> shows the active Dynamics Form ID in the popup and lets you copy it.</li>
           <li><strong>Editable hidden fields:</strong> creates visible debug copies using the form's existing layout and a green debugging border.</li>
           <li><strong>Dynamics field support:</strong> handles native hidden inputs and designer-hidden input, select, textarea, option-set, and lookup controls.</li>
           <li><strong>Submission testing:</strong> synchronises debug-copy edits to the original controls and dispatches normal input or change events.</li>
           <li><strong>Dynamic-form support:</strong> labels newly inserted hidden fields while avoiding duplicate debug controls.</li>
           <li><strong>Feature control:</strong> stores one enabled or disabled preference locally and refreshes the active page when the browser permits.</li>
+          <li><strong>Localized popup:</strong> supports ten languages through eleven native Chrome locale catalogs.</li>
         </ul>
 
         <h2>How to use it</h2>
@@ -166,7 +167,7 @@
       </article>
 
       <section class="grid gap-4 md:grid-cols-2">
-        <a class="project-card rounded-lg border border-white/15 bg-panel p-5 shadow-soft" href="/d365-form-skill/"><p class="font-mono text-xs font-semibold uppercase text-accent">Related reference</p><h2 class="mt-2 text-xl font-extrabold text-white">Dynamics 365 Forms Skill</h2><p class="mt-2 text-sm leading-6 text-slate-300">Explore the alpha guidance for form structure, embedding, customisation, and published verification.</p></a>
+        <a class="project-card rounded-lg border border-white/15 bg-panel p-5 shadow-soft" href="/d365-form-skill/"><p class="font-mono text-xs font-semibold uppercase text-accent">Related reference</p><h2 class="mt-2 text-xl font-extrabold text-white">Form Studio</h2><p class="mt-2 text-sm leading-6 text-slate-300">Restyle exported forms with scoped CSS while preserving generated structure and behaviour.</p></a>
         <a class="project-card rounded-lg border border-white/15 bg-panel p-5 shadow-soft" href="/agentic-form/"><p class="font-mono text-xs font-semibold uppercase text-accent">Related prototype</p><h2 class="mt-2 text-xl font-extrabold text-white">Agentic Form</h2><p class="mt-2 text-sm leading-6 text-slate-300">See a portable staged form prototype with validation, enrichment, and responsive browser testing.</p></a>
       </section>
 

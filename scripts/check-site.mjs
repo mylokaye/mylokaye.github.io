@@ -11,6 +11,8 @@ const pages = [
   "d365-form-skill/index.html",
   "pattens/index.html",
   "agentic-form/index.html",
+  "html-preview/index.html",
+  "foundations/index.html",
   "privacy.html",
 ];
 

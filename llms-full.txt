@@ -31,7 +31,7 @@ A dependency-free Chrome and Microsoft Edge extension for testing Dynamics 365 C
 
 ### Form Studio — https://mylokaye.me/d365-form-skill/
 
-An alpha reference and Codex skill for safely inspecting, building, embedding, customising, and troubleshooting exported Dynamics 365 Customer Insights - Journeys forms. It is guidance and a testing aid, not a claim of production readiness. Source: https://github.com/mylokaye/d365-form-skill.
+An alpha Codex skill (v1.1.0) for restyling exported Dynamics 365 Customer Insights - Journeys forms with scoped CSS while preserving original controls and behaviour. Local checks do not establish acceptance or submission processing in a Dynamics tenant. Source: https://github.com/mylokaye/form-studio.
 
 ### Pattens — https://mylokaye.me/pattens/
 
@@ -39,11 +39,15 @@ A privacy-focused campaign-operations toolkit for validated campaign assets, ema
 
 ### Agentic Form — https://mylokaye.me/agentic-form/
 
-A four-stage B2B inquiry-form prototype with validation, optional enrichment, editable suggestions, and local draft recovery. Submission remains local to the prototype and does not send an inquiry to a CRM or service. Source: https://github.com/mylokaye/Agentic-Form. Live prototype: https://form.mylokaye.me/.
+A two-step B2B inquiry-form prototype with validation, optional enrichment, editable suggestions, and a local-only prototype submission. Its current repository documents Google Analytics events and a country-lookup request. Source: https://github.com/mylokaye/Agentic-Form. Live prototype: https://form.mylokaye.me/.
 
 ### VS HTML Preview — https://mylokaye.me/html-preview/
 
-A VS Code extension for live HTML previews beside the editor, responsive viewport presets, asset refresh, diagnostics, and GitHub workspace support. It is a static preview rather than a development server. Source: https://github.com/mylokaye/vs-html-preview. Marketplace: https://marketplace.visualstudio.com/items?itemName=MyloKaye.vs-html-preview.
+A VS Code extension (published v0.1.5) for live HTML previews beside the editor, responsive viewport presets, asset refresh, diagnostics, and GitHub workspace support. It is a static preview rather than a development server. Source: https://github.com/mylokaye/html-preview. Marketplace: https://marketplace.visualstudio.com/items?itemName=MyloKaye.vs-html-preview.
+
+### Foundations Agent Plugin Library — https://mylokaye.me/foundations/
+
+Portable plugins for project delivery, plugin authoring, web development, and JavaScript static review. Source is available from https://github.com/mylokaye/Foundations. Fresh-client installation smoke tests and publication to a plugin catalog are pending; do not infer compatibility or published status.
 
 ### Privacy — https://mylokaye.me/privacy.html
 

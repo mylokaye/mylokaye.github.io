@@ -1,6 +1,6 @@
 # mylokaye.me
 
-Static source for [mylokaye.me](https://mylokaye.me/), a portfolio of Dynamics 365 Customer Insights tools and practical guides.
+Static source for [mylokaye.me](https://mylokaye.me/), a portfolio of Dynamics 365 tools, practical guides, and portable agent plugins.
 
 ## Pages
 
@@ -11,11 +11,13 @@ Static source for [mylokaye.me](https://mylokaye.me/), a portfolio of Dynamics 3
 - `/pattens/` — Pattens project page
 - `/agentic-form/` — Agentic Form project page
 - `/html-preview/` — VS HTML Preview project page
+- `/foundations/` — Foundations Agent Plugin Library page
 - `/privacy.html` — website and extension privacy information
 
-## Featured project
+## Featured projects
 
-- [VS HTML Preview project page](/html-preview/) — a VS Code extension for live HTML previews with responsive viewports, asset refresh, diagnostics, and GitHub workspace support. [Marketplace](https://marketplace.visualstudio.com/items?itemName=MyloKaye.vs-html-preview) · [Source code](https://github.com/mylokaye/vs-html-preview).
+- [VS HTML Preview project page](/html-preview/) — a VS Code extension for live HTML previews with responsive viewports, asset refresh, diagnostics, and GitHub workspace support. Current published version: 0.1.5. [Marketplace](https://marketplace.visualstudio.com/items?itemName=MyloKaye.vs-html-preview) · [Source code](https://github.com/mylokaye/html-preview).
+- [Foundations Agent Plugin Library](/foundations/) — portable plugins for project delivery, plugin authoring, web development, and JavaScript static review. Fresh-client installation checks and catalog publication are pending. [Source code](https://github.com/mylokaye/Foundations).
 
 ## Privacy
 

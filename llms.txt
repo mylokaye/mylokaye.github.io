@@ -13,23 +13,25 @@ Full site context: https://mylokaye.me/llms-full.txt
 - [Home](https://mylokaye.me/): Overview of current Dynamics 365 and customer-experience projects.
 - [About Mylo Kaye](https://mylokaye.me/about/): Professional focus, working approach and contact links.
 - [Form Debugger for Dynamics 365](https://mylokaye.me/form-debugger/): Free Chrome and Edge extension for bypassing cache while testing Dynamics 365 Customer Insights forms. Current documented version: 1.3.0.
-- [Form Studio](https://mylokaye.me/d365-form-skill/): Alpha, pre-development Codex skill and guidance for inspecting and safely editing Dynamics 365 Customer Insights forms. Current documented version: 1.0.1.
+- [Form Studio](https://mylokaye.me/d365-form-skill/): Alpha Codex skill for restyling exported Dynamics 365 Customer Insights - Journeys forms while preserving original fields and behaviour. Current documented version: 1.1.0.
 - [Pattens](https://mylokaye.me/pattens/): Privacy-focused campaign-operations toolkit for planning, naming and UTM workflows.
-- [Agentic Form](https://mylokaye.me/agentic-form/): Four-step B2B inquiry-form prototype with validation and local draft recovery.
-- [VS HTML Preview](https://mylokaye.me/html-preview/): VS Code extension for live HTML previews with responsive viewports, asset refresh, diagnostics, and GitHub workspace support. [Marketplace](https://marketplace.visualstudio.com/items?itemName=MyloKaye.vs-html-preview) · [Source](https://github.com/mylokaye/vs-html-preview).
+- [Agentic Form](https://mylokaye.me/agentic-form/): Two-step inquiry-form prototype with validation, optional company enrichment, and local-only prototype submission.
+- [VS HTML Preview](https://mylokaye.me/html-preview/): VS Code extension for live HTML previews with responsive viewports, asset refresh, diagnostics, and GitHub workspace support. Current published version: 0.1.5. [Marketplace](https://marketplace.visualstudio.com/items?itemName=MyloKaye.vs-html-preview) · [Source](https://github.com/mylokaye/html-preview).
+- [Foundations Agent Plugin Library](https://mylokaye.me/foundations/): Portable plugins for project delivery, plugin authoring, web development, and JavaScript static review. Fresh-client installation checks and catalog publication are pending. [Source](https://github.com/mylokaye/Foundations).
 - [Privacy](https://mylokaye.me/privacy.html): Data handling for this website and the Form Debugger extension.
 
 ## Source repositories and live tools
 
 - Form Debugger source: https://github.com/mylokaye/Form-Debugger-D365
-- Form Studio source: https://github.com/mylokaye/d365-form-skill
+- Form Studio source: https://github.com/mylokaye/form-studio
 - Pattens source: https://github.com/mylokaye/Pattens
 - Pattens live tool: https://pattens.mylokaye.me/
 - Agentic Form source: https://github.com/mylokaye/Agentic-Form
 - Agentic Form live prototype: https://form.mylokaye.me/
-- VS HTML Preview source: https://github.com/mylokaye/vs-html-preview
+- VS HTML Preview source: https://github.com/mylokaye/html-preview
 - VS HTML Preview project page: https://mylokaye.me/html-preview/
 - VS HTML Preview Marketplace: https://marketplace.visualstudio.com/items?itemName=MyloKaye.vs-html-preview
+- Foundations source: https://github.com/mylokaye/Foundations
 
 ## Use and attribution
 
