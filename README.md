@@ -9,7 +9,6 @@ Static source for [mylokaye.me](https://mylokaye.me/), a portfolio of Dynamics 3
 - `/form-debugger/` — Form Debugger product page
 - `/d365-form-skill/` — Form Studio page
 - `/pattens/` — Pattens project page
-- `/agentic-form/` — Agentic Form project page
 - `/html-preview/` — VS HTML Preview project page
 - `/foundations/` — Foundations Agent Plugin Library page
 - `/privacy.html` — website and extension privacy information

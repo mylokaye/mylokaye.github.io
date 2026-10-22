@@ -6,7 +6,6 @@ module.exports = {
     './form-debugger/*.html',
     './d365-form-skill/*.html',
     './pattens/*.html',
-    './agentic-form/*.html'
   ],
   theme: {
     extend: {
