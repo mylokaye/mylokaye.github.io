@@ -48,3 +48,11 @@ Portable plugins for project delivery, plugin authoring, web development, and Ja
 ### Privacy — https://mylokaye.me/privacy.html
 
 Data-handling information for the website and the Form Debugger browser extension, including local extension storage and browser permissions.
+
+- Dynamics 365 Email Studio: https://mylokaye.me/d365-email-studio/ — Edit and translate existing Dynamics 365 email HTML with protected markup and local structural validation.
+
+- Email Studio support: https://mylokaye.me/d365-email-studio/support/ — Get help with Dynamics 365 Email Studio, report a problem or ask a privacy question.
+
+- Email Studio privacy policy: https://mylokaye.me/d365-email-studio/privacy/ — Privacy policy for Dynamics 365 Email Studio: local validation, OpenAI chat processing, Cloudflare hosting and support.
+
+- Email Studio terms of service: https://mylokaye.me/d365-email-studio/terms/ — Terms for using the free Dynamics 365 Email Studio plugin published by Mylo Kaye.

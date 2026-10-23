@@ -13,6 +13,10 @@ const pages = [
   "html-preview/index.html",
   "foundations/index.html",
   "privacy.html",
+  "d365-email-studio/index.html",
+  "d365-email-studio/support/index.html",
+  "d365-email-studio/privacy/index.html",
+  "d365-email-studio/terms/index.html",
 ];
 
 const failures = [];
