@@ -17,7 +17,7 @@ Full site context: https://mylokaye.me/llms-full.txt
 - [Pattens](https://mylokaye.me/pattens/): Privacy-focused campaign-operations toolkit for planning, naming and UTM workflows.
 - [VS HTML Preview](https://mylokaye.me/html-preview/): VS Code extension for live HTML previews with responsive viewports, asset refresh, diagnostics, and GitHub workspace support. Current published version: 0.1.5. [Marketplace](https://marketplace.visualstudio.com/items?itemName=MyloKaye.vs-html-preview) · [Source](https://github.com/mylokaye/html-preview).
 - [Foundations Agent Plugin Library](https://mylokaye.me/foundations/): Portable plugins for project delivery, plugin authoring, web development, and JavaScript static review. Fresh-client installation checks and catalog publication are pending. [Source](https://github.com/mylokaye/Foundations).
-- [Privacy](https://mylokaye.me/privacy.html): Data handling for this website and the Form Debugger extension.
+- [Privacy and terms](https://mylokaye.me/legal.html): Website, Form Debugger, and Manchester Tram Times privacy information; Email Studio terms.
 
 ## Source repositories and live tools
 

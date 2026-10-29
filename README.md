@@ -11,7 +11,7 @@ Static source for [mylokaye.me](https://mylokaye.me/), a portfolio of Dynamics 3
 - `/pattens/` — Pattens project page
 - `/html-preview/` — VS HTML Preview project page
 - `/foundations/` — Foundations Agent Plugin Library page
-- `/privacy.html` — website and extension privacy information
+- `/legal.html` — website, extension, and Manchester Tram Times privacy information and terms
 
 ## Featured projects
 
